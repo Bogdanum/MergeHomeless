@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ad224a1bc4b394f867d6f1dbf3eb3b, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  _LevelProperties:
+  - Level: 1
+    LevelUpExp: 6
+    MaxItem: 4
+    MaxItemInPlay: 2
+  - Level: 2
+    LevelUpExp: 12
+    MaxItem: 5
+    MaxItemInPlay: 3
+  - Level: 3
+    LevelUpExp: 24
+    MaxItem: 6
+    MaxItemInPlay: 3
+  - Level: 4
+    LevelUpExp: 36
+    MaxItem: 7
+    MaxItemInPlay: 4
+  - Level: 5
+    LevelUpExp: 80
+    MaxItem: 8
+    MaxItemInPlay: 5
+  - Level: 6
+    LevelUpExp: 130
+    MaxItem: 9
+    MaxItemInPlay: 5
+  - Level: 7
+    LevelUpExp: 200
+    MaxItem: 10
+    MaxItemInPlay: 6
+  - Level: 8
+    LevelUpExp: 300
+    MaxItem: 11
+    MaxItemInPlay: 7
+  - Level: 9
+    LevelUpExp: 390
+    MaxItem: 12
+    MaxItemInPlay: 8
+  - Level: 10
+    LevelUpExp: 430
+    MaxItem: 12
+    MaxItemInPlay: 9
+  - Level: 11
+    LevelUpExp: 520
+    MaxItem: 13
+    MaxItemInPlay: 10
+  - Level: 12
+    LevelUpExp: 680
+    MaxItem: 13
+    MaxItemInPlay: 10
+  - Level: 13
+    LevelUpExp: 770
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 14
+    LevelUpExp: 980
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 15
+    LevelUpExp: 1210
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 16
+    LevelUpExp: 1470
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 17
+    LevelUpExp: 1750
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 18
+    LevelUpExp: 2060
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 19
+    LevelUpExp: 2390
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 20
+    LevelUpExp: 2750
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 21
+    LevelUpExp: 3130
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 22
+    LevelUpExp: 3540
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 23
+    LevelUpExp: 3970
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 24
+    LevelUpExp: 4430
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 25
+    LevelUpExp: 4910
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 26
+    LevelUpExp: 5420
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 27
+    LevelUpExp: 6370
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 28
+    LevelUpExp: 7390
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 29
+    LevelUpExp: 8470
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 30
+    LevelUpExp: 9610
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 31
+    LevelUpExp: 10320
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 32
+    LevelUpExp: 11050
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 33
+    LevelUpExp: 11800
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 34
+    LevelUpExp: 12580
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 35
+    LevelUpExp: 13380
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 36
+    LevelUpExp: 14210
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 37
+    LevelUpExp: 15070
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 38
+    LevelUpExp: 15940
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 39
+    LevelUpExp: 16580
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 40
+    LevelUpExp: 17780
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 41
+    LevelUpExp: 18730
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 42
+    LevelUpExp: 19710
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 43
+    LevelUpExp: 20710
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 44
+    LevelUpExp: 21740
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 45
+    LevelUpExp: 22790
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 46
+    LevelUpExp: 23860
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 47
+    LevelUpExp: 24970
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 48
+    LevelUpExp: 26090
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 49
+    LevelUpExp: 27420
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 50
+    LevelUpExp: 28420
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 51
+    LevelUpExp: 28990
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 52
+    LevelUpExp: 29560
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 53
+    LevelUpExp: 30310
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 54
+    LevelUpExp: 30690
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 55
+    LevelUpExp: 31260
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 56
+    LevelUpExp: 31830
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 57
+    LevelUpExp: 32400
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 58
+    LevelUpExp: 32970
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 59
+    LevelUpExp: 33540
+    MaxItem: 14
+    MaxItemInPlay: 10
+  - Level: 60
+    LevelUpExp: 34100
+    MaxItem: 14
+    MaxItemInPlay: 10

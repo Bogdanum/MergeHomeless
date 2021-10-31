@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Text_bonus_gems" xml:space="preserve">
+		<value>الماس</value>
+	</data>
+	<data name="Text_completed_mission" xml:space="preserve">
+		<value>مبارك! كنت إكمال المهمة!</value>
+	</data>
+	<data name="Text_daily_quest_will_back" xml:space="preserve">
+		<value>تحقق مرة أخرى للحصول على السعي الجديد غدا!</value>
+	</data>
+	<data name="Text_description_add_seconds" xml:space="preserve">
+		<value>إضافة {0} ثانية أخرى</value>
+	</data>
+	<data name="Text_description_connect_facebook_failed" xml:space="preserve">
+		<value>فشل الاتصال بـ Facebook. يرجى المحاولة фمرة أخرى.</value>
+	</data>
+	<data name="Text_description_discount_shop" xml:space="preserve">
+		<value>كل بيع {0}% قبالة</value>
+	</data>
+	<data name="Text_description_earning_each_sec" xml:space="preserve">
+		<value>{0}/ثانية</value>
+	</data>
+	<data name="Text_description_earning_shop" xml:space="preserve">
+		<value>جميع الأرباح &lt;color=#FFED00FF&gt;+{0}%&lt;/اللون&gt;</value>
+	</data>
+	<data name="Text_description_equip_discount_buy" xml:space="preserve">
+		<value>سيتم تخفيض الشراء بنسبة {0}٪.</value>
+	</data>
+	<data name="Text_description_equip_discount_upgrade" xml:space="preserve">
+		<value>سيتم تخفيض الترقية بنسبة {0}٪.</value>
+	</data>
+	<data name="Text_description_equip_earning" xml:space="preserve">
+		<value>الدخل بنسبة {0}%.</value>
+	</data>
+	<data name="Text_description_failed_to_sync_cloud" xml:space="preserve">
+		<value>فشل مزامنة أو تحميل التقدم. يرجى المحاولة مرة أخرى.</value>
+	</data>
+	<data name="Text_description_follow_and_talk_us" xml:space="preserve">
+		<value>المزيد من الألعاب على موقعنا!</value>
+	</data>
+	<data name="Text_description_follow_on_twitter" xml:space="preserve">
+		<value>تابعونا على تويتر!</value>
+	</data>
+	<data name="Text_description_get_revenue_for_times" xml:space="preserve">
+		<value>بالنسبة لك حين كنت بعيدا عن {0}</value>
+	</data>
+	<data name="Text_description_go_go" xml:space="preserve">
+		<value>لنبدأ!!!</value>
+	</data>
+	<data name="Text_description_here_your_reward" xml:space="preserve">
+		<value>ها هي مكافأتك</value>
+	</data>
+	<data name="Text_description_increase_exp" xml:space="preserve">
+		<value>&lt; color= # FFED00FF&gt; + {0}٪ &lt; / color&gt; المزيد XP</value>
+	</data>
+	<data name="Text_description_invite_friend_get_profit_boost" xml:space="preserve">
+		<value>دعوة الأصدقاء. الحصول على يعزز الربح!</value>
+	</data>
+	<data name="Text_description_locked" xml:space="preserve">
+		<value>عفوا ... إنه مغلق!</value>
+	</data>
+	<data name="Text_description_lv" xml:space="preserve">
+		<value>المستوى {0}</value>
+	</data>
+	<data name="Text_description_mission_buy_item" xml:space="preserve">
+		<value>شراء {0} مرات.</value>
+	</data>
+	<data name="Text_description_mission_get_bonus" xml:space="preserve">
+		<value>الحصول على مكافأة {0} مرات.</value>
+	</data>
+	<data name="Text_description_mission_like_facebook" xml:space="preserve">
+		<value>مثل صفحة Facebook الخاصة بنا</value>
+	</data>
+	<data name="Text_description_mission_merge" xml:space="preserve">
+		<value>دمج {0} مرات.</value>
+	</data>
+	<data name="Text_description_mission_not_complete" xml:space="preserve">
+		<value>السعي لا تكتمل!</value>
+	</data>
+	<data name="Text_description_mission_own_item" xml:space="preserve">
+		<value>الحصول على {0} Lv. {1} الأحرف في سنترال بارك.</value>
+	</data>
+	<data name="Text_description_mission_tap_box" xml:space="preserve">
+		<value>اضغط {0} مرات.</value>
+	</data>
+	<data name="Text_description_mission_tap_item" xml:space="preserve">
+		<value>اضغط {0} مرات.</value>
+	</data>
+	<data name="Text_description_mission_upgrade_item" xml:space="preserve">
+		<value>ترقية {0} مرات.</value>
+	</data>
+	<data name="Text_description_more_come_soon" xml:space="preserve">
+		<value>المزيد قريبا</value>
+	</data>
+	<data name="Text_description_no_more_ads" xml:space="preserve">
+		<value>لا توجد إعلانات متاحة!</value>
+	</data>
+	<data name="Text_description_no_more_park" xml:space="preserve">
+		<value>لا مزيد من وقوف السيارات المتاحة!</value>
+	</data>
+	<data name="Text_description_not_enough_cash" xml:space="preserve">
+		<value>عفوا... لا يكفي النقود!</value>
+	</data>
+	<data name="Text_description_not_enough_coca" xml:space="preserve">
+		<value>عفوا... ليس ما يكفي من المال!</value>
+	</data>
+	<data name="Text_description_not_enough_diamonds" xml:space="preserve">
+		<value>عفوا... لا يكفي الماس!</value>
+	</data>
+	<data name="Text_description_notification_1" xml:space="preserve">
+		<value>الوقت لكسب المزيد من النقود!</value>
+	</data>
+	<data name="Text_description_notification_2" xml:space="preserve">
+		<value>صباح الخير! تاريخ وكسب المزيد من القطع النقدية!</value>
+	</data>
+	<data name="Text_description_notification_3" xml:space="preserve">
+		<value>يوم جديد ولعبة جديدة!</value>
+	</data>
+	<data name="Text_description_notification_4" xml:space="preserve">
+		<value>الوقت ليكون بطلا! لنلعب!!!</value>
+	</data>
+	<data name="Text_description_notification_5" xml:space="preserve">
+		<value>لعب وتصبح الملياردير!</value>
+	</data>
+	<data name="Text_description_racing" xml:space="preserve">
+		<value>دمج وفتح المزيد من الشخصيات!</value>
+	</data>
+	<data name="Text_description_racing_II" xml:space="preserve">
+		<value>الانضمام إلى السباق وكسب المزيد من النقود! تصبح غنية الإنسان!</value>
+	</data>
+	<data name="Text_description_rate_me" xml:space="preserve">
+		<value>يرجى اتخاذ دقيقة ومعدل اللعبة إذا كنت ترغب في ذلك.</value>
+	</data>
+	<data name="Text_description_reach_level" xml:space="preserve">
+		<value>لقد وصلت إلى المستوى {0}.</value>
+	</data>
+	<data name="Text_description_require_level" xml:space="preserve">
+		<value>المستوى المطلوب: {0}</value>
+	</data>
+	<data name="Text_description_revenue_from_ads" xml:space="preserve">
+		<value>الحصول على {0}x مع الفيديو</value>
+	</data>
+	<data name="Text_description_revenue_from_diamonds" xml:space="preserve">
+		<value>الحصول على {0}x مع</value>
+	</data>
+	<data name="Text_description_speed_in" xml:space="preserve">
+		<value>سرعة x2 في</value>
+	</data>
+	<data name="Text_description_spin_more_and_win" xml:space="preserve">
+		<value>تدور أكثر ، والفوز أكثر!</value>
+	</data>
+	<data name="Text_description_tap_open_chest" xml:space="preserve">
+		<value>اضغط على الصدر فتحه</value>
+	</data>
+	<data name="Text_description_tap_to_open" xml:space="preserve">
+		<value>اضغط لفتح</value>
+	</data>
+	<data name="Text_description_thank_you" xml:space="preserve">
+		<value>شكرا لك!</value>
+	</data>
+	<data name="Text_description_time_jump" xml:space="preserve">
+		<value>{0} ح الوقت القفز</value>
+	</data>
+	<data name="Text_description_time_jump_1_day" xml:space="preserve">
+		<value>1-يوم القفز الوقت</value>
+	</data>
+	<data name="Text_description_time_jump_14_day" xml:space="preserve">
+		<value>القفز لمدة 14 يوما</value>
+	</data>
+	<data name="Text_description_time_jump_30_day" xml:space="preserve">
+		<value>القفز لمدة 30 يوما</value>
+	</data>
+	<data name="Text_description_time_jump_7_day" xml:space="preserve">
+		<value>القفز لمدة 7 أيام</value>
+	</data>
+	<data name="Text_description_tutorial_earning" xml:space="preserve">
+		<value>وضع الحرف في سباق والبدء في كسب النقود.</value>
+	</data>
+	<data name="Text_description_tutorial_merge" xml:space="preserve">
+		<value>الانصهار حرفين مستوى منخفض للحصول على آخر حرف مع مستوى أعلى.</value>
+	</data>
+	<data name="Text_description_tutorial_speed_up" xml:space="preserve">
+		<value>دعونا تسريع لكسب المال بسرعة عن طريق الماس أو مشاهدة الإعلانات.</value>
+	</data>
+	<data name="Text_description_tutorial_start_game" xml:space="preserve">
+		<value>شكرا لانضمامك لعالمي دعونا التمتع ومعدل لي إذا كنت تحب!</value>
+	</data>
+	<data name="Text_description_tutorial_upgrade" xml:space="preserve">
+		<value>دعونا ترقية الشخصيات أو ترقية المعدات لكسب المزيد من النقود.</value>
+	</data>
+	<data name="Text_description_ufo_gift" xml:space="preserve">
+		<value>التسليم من المستقبل! لديك</value>
+	</data>
+	<data name="Text_description_update_android" xml:space="preserve">
+		<value>تحديث جديد متوفر في Google Play! التحديث الآن!</value>
+	</data>
+	<data name="Text_description_update_ios" xml:space="preserve">
+		<value>تحديث جديد متوفر في المتجر! التحديث الآن!</value>
+	</data>
+	<data name="Text_description_watch_to_get_free" xml:space="preserve">
+		<value>مشاهدة للحصول على مجانا:</value>
+	</data>
+	<data name="Text_description_we_are_collected" xml:space="preserve">
+		<value>لقد جمعت</value>
+	</data>
+	<data name="Text_description_welcome_racer" xml:space="preserve">
+		<value>مرحبا بكم في عالم الخيال!</value>
+	</data>
+	<data name="Text_description_will_available_in" xml:space="preserve">
+		<value>سوف تكون متاحة في:</value>
+	</data>
+	<data name="Text_description_you_are_claimed" xml:space="preserve">
+		<value>تهانينا ، رئيس! لقد ادعى</value>
+	</data>
+	<data name="Text_description_you_earned" xml:space="preserve">
+		<value>لقد جمعت</value>
+	</data>
+	<data name="Text_descriptuon_profit_speed_x" xml:space="preserve">
+		<value>سرعة الربح x{0}</value>
+	</data>
+	<data name="Text_inp_window_button_ok" xml:space="preserve">
+		<value>حسنا</value>
+	</data>
+	<data name="Text_inp_window_error" xml:space="preserve">
+		<value>تم أخذ الاسم!</value>
+	</data>
+	<data name="Text_inp_window_forb" xml:space="preserve">
+		<value>تم حظر الاسم!</value>
+	</data>
+	<data name="Text_inp_window_header" xml:space="preserve">
+		<value>أدخل الاسم</value>
+	</data>
+	<data name="Text_label_back" xml:space="preserve">
+		<value>العودة</value>
+	</data>
+	<data name="Text_label_battery_saver" xml:space="preserve">
+		<value>البطارية التوقف</value>
+	</data>
+	<data name="Text_label_bonus_reward" xml:space="preserve">
+		<value>مكافأة مكافأة</value>
+	</data>
+	<data name="Text_label_booster" xml:space="preserve">
+		<value>الداعم</value>
+	</data>
+	<data name="Text_label_buy" xml:space="preserve">
+		<value>شراء</value>
+	</data>
+	<data name="Text_label_claim" xml:space="preserve">
+		<value>المطالبة</value>
+	</data>
+	<data name="Text_label_come_back_later_for_spin" xml:space="preserve">
+		<value>أعود في وقت لاحق لتدور ن ' الفوز ، رئيس!</value>
+	</data>
+	<data name="Text_label_completed" xml:space="preserve">
+		<value>أنجز</value>
+	</data>
+	<data name="Text_label_currency_exchange" xml:space="preserve">
+		<value>صرف العملات</value>
+	</data>
+	<data name="Text_label_daily_event_available" xml:space="preserve">
+		<value>الحدث اليومي متاح!</value>
+	</data>
+	<data name="Text_label_daily_quest" xml:space="preserve">
+		<value>السعي اليومي</value>
+	</data>
+	<data name="Text_label_diamond_shop" xml:space="preserve">
+		<value>الماس متجر</value>
+	</data>
+	<data name="Text_label_discount" xml:space="preserve">
+		<value>الخصم</value>
+	</data>
+	<data name="Text_label_discount_value" xml:space="preserve">
+		<value>{0}% خصم</value>
+	</data>
+	<data name="Text_label_earning" xml:space="preserve">
+		<value>كسب</value>
+	</data>
+	<data name="Text_label_event_end_in" xml:space="preserve">
+		<value>ينتهي في:</value>
+	</data>
+	<data name="Text_label_exchange" xml:space="preserve">
+		<value>التبادل</value>
+	</data>
+	<data name="Text_label_follow" xml:space="preserve">
+		<value>اتبع</value>
+	</data>
+	<data name="Text_label_free" xml:space="preserve">
+		<value>مجانا</value>
+	</data>
+	<data name="Text_label_get" xml:space="preserve">
+		<value>احصل على {0}</value>
+	</data>
+	<data name="Text_label_get_x_profit" xml:space="preserve">
+		<value>الحصول على {0} X الربح!</value>
+	</data>
+	<data name="Text_label_gimme_that" xml:space="preserve">
+		<value>أعطني ذلك!</value>
+	</data>
+	<data name="Text_label_give_us_five_stars" xml:space="preserve">
+		<value>تعطينا 5 نجوم!</value>
+	</data>
+	<data name="Text_label_handful_of_coins" xml:space="preserve">
+		<value>حفنة من القطع النقدية</value>
+	</data>
+	<data name="Text_label_invite_friends" xml:space="preserve">
+		<value>دعوة الأصدقاء</value>
+	</data>
+	<data name="Text_label_item" xml:space="preserve">
+		<value>البنود</value>
+	</data>
+	<data name="Text_label_item_name_1" xml:space="preserve">
+		<value>بوم-خنزير</value>
+	</data>
+	<data name="Text_label_item_name_10" xml:space="preserve">
+		<value>متشرد متشرد</value>
+	</data>
+	<data name="Text_label_item_name_11" xml:space="preserve">
+		<value>بوم-مذهل</value>
+	</data>
+	<data name="Text_label_item_name_12" xml:space="preserve">
+		<value>بوم المارقة</value>
+	</data>
+	<data name="Text_label_item_name_13" xml:space="preserve">
+		<value>بوم الكحولية</value>
+	</data>
+	<data name="Text_label_item_name_14" xml:space="preserve">
+		<value>بوم الخرقاء</value>
+	</data>
+	<data name="Text_label_item_name_15" xml:space="preserve">
+		<value>الضالة بوم</value>
+	</data>
+	<data name="Text_label_item_name_16" xml:space="preserve">
+		<value>بوم المهنية</value>
+	</data>
+	<data name="Text_label_item_name_17" xml:space="preserve">
+		<value>المومس بوم</value>
+	</data>
+	<data name="Text_label_item_name_18" xml:space="preserve">
+		<value>جوبنيك بوم</value>
+	</data>
+	<data name="Text_label_item_name_19" xml:space="preserve">
+		<value>بوم الهيام</value>
+	</data>
+	<data name="Text_label_item_name_2" xml:space="preserve">
+		<value>بوم-الساذج</value>
+	</data>
+	<data name="Text_label_item_name_20" xml:space="preserve">
+		<value>بوم-الهيام</value>
+	</data>
+	<data name="Text_label_item_name_21" xml:space="preserve">
+		<value>بوم-مغامر</value>
+	</data>
+	<data name="Text_label_item_name_22" xml:space="preserve">
+		<value>بوم النبيل</value>
+	</data>
+	<data name="Text_label_item_name_23" xml:space="preserve">
+		<value>بوم بويار</value>
+	</data>
+	<data name="Text_label_item_name_24" xml:space="preserve">
+		<value>بارون المتشردون</value>
+	</data>
+	<data name="Text_label_item_name_25" xml:space="preserve">
+		<value>عدد المتشردون</value>
+	</data>
+	<data name="Text_label_item_name_26" xml:space="preserve">
+		<value>بوم ماركيز</value>
+	</data>
+	<data name="Text_label_item_name_27" xml:space="preserve">
+		<value>المشردين بويار</value>
+	</data>
+	<data name="Text_label_item_name_28" xml:space="preserve">
+		<value>سد المتشردون</value>
+	</data>
+	<data name="Text_label_item_name_29" xml:space="preserve">
+		<value>أمير المتشردون</value>
+	</data>
+	<data name="Text_label_item_name_3" xml:space="preserve">
+		<value>بلا مأوى</value>
+	</data>
+	<data name="Text_label_item_name_30" xml:space="preserve">
+		<value>ملك المتشردون</value>
+	</data>
+	<data name="Text_label_item_name_31" xml:space="preserve">
+		<value>جيمس بوند</value>
+	</data>
+	<data name="Text_label_item_name_32" xml:space="preserve">
+		<value>كازوكي</value>
+	</data>
+	<data name="Text_label_item_name_4" xml:space="preserve">
+		<value>عادي بوم</value>
+	</data>
+	<data name="Text_label_item_name_5" xml:space="preserve">
+		<value>متشرد</value>
+	</data>
+	<data name="Text_label_item_name_6" xml:space="preserve">
+		<value>بوم</value>
+	</data>
+	<data name="Text_label_item_name_7" xml:space="preserve">
+		<value>ذوي الخبرة-بوم</value>
+	</data>
+	<data name="Text_label_item_name_8" xml:space="preserve">
+		<value>بوم المتهرب</value>
+	</data>
+	<data name="Text_label_item_name_9" xml:space="preserve">
+		<value>متشرد متشرد</value>
+	</data>
+	<data name="Text_label_language" xml:space="preserve">
+		<value>اللغة</value>
+	</data>
+	<data name="Text_label_later" xml:space="preserve">
+		<value>لاحقا</value>
+	</data>
+	<data name="Text_label_let_spin" xml:space="preserve">
+		<value>دعونا تدور!</value>
+	</data>
+	<data name="Text_label_level_up" xml:space="preserve">
+		<value>المستوى الأعلى!</value>
+	</data>
+	<data name="Text_label_level_up_upgrade" xml:space="preserve">
+		<value>المستوى الأعلى!</value>
+	</data>
+	<data name="Text_label_max" xml:space="preserve">
+		<value>ماكس</value>
+	</data>
+	<data name="Text_label_maxed" xml:space="preserve">
+		<value>بلغوا الحد الاقصى</value>
+	</data>
+	<data name="Text_label_min" xml:space="preserve">
+		<value>دقيقة</value>
+	</data>
+	<data name="Text_label_music" xml:space="preserve">
+		<value>موسيقى</value>
+	</data>
+	<data name="Text_label_next_in" xml:space="preserve">
+		<value>التالي في:</value>
+	</data>
+	<data name="Text_label_normal_quest" xml:space="preserve">
+		<value>السعي العادي</value>
+	</data>
+	<data name="Text_label_notification" xml:space="preserve">
+		<value>الإخطار</value>
+	</data>
+	<data name="Text_label_offline_earning" xml:space="preserve">
+		<value>مرحبا بعودتك يا رب!</value>
+	</data>
+	<data name="Text_label_other" xml:space="preserve">
+		<value>آخرون</value>
+	</data>
+	<data name="Text_label_owned" xml:space="preserve">
+		<value>المملوكة</value>
+	</data>
+	<data name="Text_label_pile_of_coins" xml:space="preserve">
+		<value>كومة من العملات</value>
+	</data>
+	<data name="Text_label_profit_speed" xml:space="preserve">
+		<value>سرعة الربح</value>
+	</data>
+	<data name="Text_label_rate_me" xml:space="preserve">
+		<value>قيمني</value>
+	</data>
+	<data name="Text_label_rate_now" xml:space="preserve">
+		<value>معدل الآن</value>
+	</data>
+	<data name="Text_label_restore_purchase" xml:space="preserve">
+		<value>استعادة الشراء</value>
+	</data>
+	<data name="Text_label_sale_off" xml:space="preserve">
+		<value>إيقاف %{0}</value>
+	</data>
+	<data name="Text_label_settings" xml:space="preserve">
+		<value>الإعداد</value>
+	</data>
+	<data name="Text_label_share" xml:space="preserve">
+		<value>حصة</value>
+	</data>
+	<data name="Text_label_shop" xml:space="preserve">
+		<value>تسوق</value>
+	</data>
+	<data name="Text_label_sound" xml:space="preserve">
+		<value>الصوت</value>
+	</data>
+	<data name="Text_label_speed" xml:space="preserve">
+		<value>السرعة</value>
+	</data>
+	<data name="Text_label_speed_up" xml:space="preserve">
+		<value>تسريع</value>
+	</data>
+	<data name="Text_label_spin_and_win" xml:space="preserve">
+		<value>تدور ن ' فوز</value>
+	</data>
+	<data name="Text_label_statistics" xml:space="preserve">
+		<value>الإحصاءات</value>
+	</data>
+	<data name="Text_label_tap_to_close" xml:space="preserve">
+		<value>اضغط لإغلاق</value>
+	</data>
+	<data name="Text_label_unlocked" xml:space="preserve">
+		<value>مقفلة</value>
+	</data>
+	<data name="Text_label_update_now" xml:space="preserve">
+		<value>تحديث الآن</value>
+	</data>
+	<data name="Text_label_upgrade" xml:space="preserve">
+		<value>ترقيات</value>
+	</data>
+	<data name="Text_label_watch_now" xml:space="preserve">
+		<value>شاهد الآن</value>
+	</data>
+	<data name="Text_label_watch_to_spin" xml:space="preserve">
+		<value>مشاهدة تدور</value>
+	</data>
+	<data name="Text_label_wheel_lucky" xml:space="preserve">
+		<value>عجلة الحظ</value>
+	</data>
+	<data name="Text_label_yeah" xml:space="preserve">
+		<value>ياي!</value>
+	</data>
+	<data name="Text_label_your_income" xml:space="preserve">
+		<value>دخلك</value>
+	</data>
+	<data name="Text_lb_access_panel_loadinglb" xml:space="preserve">
+		<value>مطلوب اتصال بالإنترنت للوصول إلى المتصدرين</value>
+	</data>
+	<data name="Text_lb_panel_header" xml:space="preserve">
+		<value>المتصدرين</value>
+	</data>
+	<data name="Text_lb_panel_loadinglb" xml:space="preserve">
+		<value>تحميل...</value>
+	</data>
+	<data name="Text_lb_panel_show_all_players" xml:space="preserve">
+		<value>عرض أعلى 100</value>
+	</data>
+	<data name="Text_lb_panel_show_around_players" xml:space="preserve">
+		<value>أظهر موقفي</value>
+	</data>
+	<data name="Text_out_of_mission" xml:space="preserve">
+		<value>أحسنت يا أخي! المهمة انتهت. سيتم تحديث البعثات القادمة قريبا.</value>
+	</data>
+	<data name="Text_reward_description_box1" xml:space="preserve">
+		<value>مربع حرف عشوائي</value>
+	</data>
+	<data name="Text_reward_description_box2" xml:space="preserve">
+		<value>2 صناديق مع أحرف عشوائية</value>
+	</data>
+	<data name="Text_reward_description_diamonds10" xml:space="preserve">
+		<value>10 الماس</value>
+	</data>
+	<data name="Text_reward_description_diamonds5" xml:space="preserve">
+		<value>5 الماس</value>
+	</data>
+	<data name="Text_reward_description_speedup150" xml:space="preserve">
+		<value>تسريع 150 ثانية</value>
+	</data>
+	<data name="Text_reward_description_speedup200" xml:space="preserve">
+		<value>تسريع 200 ثانية</value>
+	</data>
+	<data name="Text_reward_description_x5prof20s" xml:space="preserve">
+		<value>يعطي 20 ثانية لربح x5</value>
+	</data>
+	<data name="Text_reward_description_x5prof30s" xml:space="preserve">
+		<value>يعطي 30 ثانية لربح x5</value>
+	</data>
+	<data name="Text_title_notification_1" xml:space="preserve">
+		<value>مرحبا بكم في يوم جديد!</value>
+	</data>
+	<data name="Text_title_notification_2" xml:space="preserve">
+		<value>طاب يومك!</value>
+	</data>
+	<data name="Text_title_notification_3" xml:space="preserve">
+		<value>يوم Suppppper!!!</value>
+	</data>
+</root>

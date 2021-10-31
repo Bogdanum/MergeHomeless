@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1646027035254708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4008407686374052}
+  - component: {fileID: 114653534634725300}
+  - component: {fileID: 114190315636471756}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4008407686374052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646027035254708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114653534634725300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646027035254708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 658af901013e01f4e93be8ecf6fb52c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _IsPersistent: 1
+  _MusicAudioSource: {fileID: 0}
+  _SoundAudioSource: {fileID: 0}
+--- !u!114 &114190315636471756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646027035254708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb748f6bded508c4790578c171fd80f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundItems:
+  - SoundId: 1
+    AudioClip: {fileID: 8300000, guid: 26430a74224114ff7b6c346272963c8c, type: 3}
+  - SoundId: 2
+    AudioClip: {fileID: 8300000, guid: 3f88faae7221664419b0277214b799d2, type: 3}
+  - SoundId: 3
+    AudioClip: {fileID: 8300000, guid: c03fe5ed02350455d87301227a6ea37d, type: 3}
+  - SoundId: 4
+    AudioClip: {fileID: 8300000, guid: 757fa29f02ca441b882e850f7bfb1029, type: 3}
+  - SoundId: 5
+    AudioClip: {fileID: 8300000, guid: 0d461be3d20eb4e619e0b243a190f623, type: 3}
+  - SoundId: 6
+    AudioClip: {fileID: 8300000, guid: 142899483a0ae3d45b647f87bf69fb7b, type: 3}
+  - SoundId: 7
+    AudioClip: {fileID: 8300000, guid: 883f838cc18bcfc4d96211132ff1ea12, type: 3}
+  - SoundId: 9
+    AudioClip: {fileID: 8300000, guid: 64d8c621f9bf647149b464f4735a7327, type: 3}
+  - SoundId: 8
+    AudioClip: {fileID: 8300000, guid: ed3b5fd0a0c23447994f979bf60bc30e, type: 3}
+  - SoundId: 10
+    AudioClip: {fileID: 8300000, guid: 1b4f738a865c04eef86ffc758b6c9a8d, type: 3}
+  - SoundId: 11
+    AudioClip: {fileID: 8300000, guid: a2cecae9bf4aca248ba4787735f437f8, type: 3}
+  - SoundId: 14
+    AudioClip: {fileID: 8300000, guid: 883f838cc18bcfc4d96211132ff1ea12, type: 3}
+  - SoundId: 15
+    AudioClip: {fileID: 8300000, guid: 3f1b7b29e9f358c41b3ce4dc5c24e59d, type: 3}
+  - SoundId: 16
+    AudioClip: {fileID: 8300000, guid: 3d7c58c8d56830f41a130d59eb906465, type: 3}
+  - SoundId: 18
+    AudioClip: {fileID: 8300000, guid: 0939367b85805cf418b769641a96d309, type: 3}
+  - SoundId: 19
+    AudioClip: {fileID: 8300000, guid: 4e7f60cd329da904da20fde30eb6f5da, type: 3}
+  - SoundId: 20
+    AudioClip: {fileID: 8300000, guid: 3ecd0f97a58d27341996dd77a43bfee1, type: 3}
+  - SoundId: 21
+    AudioClip: {fileID: 8300000, guid: 0f9f834b13986614ea38f36d37fa1d15, type: 3}
+  - SoundId: 23
+    AudioClip: {fileID: 8300000, guid: eebabbed1fc19da4e941764515246a42, type: 3}
+  - SoundId: 26
+    AudioClip: {fileID: 8300000, guid: d864819b2790ed340ab87ba02f3b400f, type: 3}
+  - SoundId: 25
+    AudioClip: {fileID: 8300000, guid: b00cb4f2656e23c4bada84c027e8f3c0, type: 3}
+  - SoundId: 27
+    AudioClip: {fileID: 8300000, guid: b8a3e5bc33c629f4a870a02c20b976ea, type: 3}
+  - SoundId: 22
+    AudioClip: {fileID: 8300000, guid: 0371ce744beefb64eb8895b1b6d3aef2, type: 3}
+  musicItems:
+  - MusicId: 1
+    AudioClip: {fileID: 8300000, guid: bc051ab1f75ebc941914d0d1fde84b1a, type: 3}
+  IsAutomaticClear: 0

@@ -1,0 +1,27 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/TexturePacker/Pack/Cars.tpsheet
+- Assets/TexturePacker/Pack/Game.tpsheet
+- Assets/TexturePacker/Pack/Items.tpsheet
+- Assets/TexturePacker/Pack/particle_Addictive.tpsheet
+- Assets/TexturePacker/Pack/particles.tpsheet
+- Assets/TexturePacker/Pack/UI.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/TexturePacker/Pack/Cars.png
+- Assets/TexturePacker/Pack/Game.png
+- Assets/TexturePacker/Pack/Items.png
+- Assets/TexturePacker/Pack/particle_Addictive.png
+- Assets/TexturePacker/Pack/particles.png
+- Assets/TexturePacker/Pack/UI.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8053eff1de74274db2cf7c5e64bed27, type: 3}
+  m_Name: RandomReward
+  m_EditorClassIdentifier: 
+  _RewardProperties:
+  - Level: 1
+    Details:
+    - ItemLevel: 1
+      Percent: 100
+  - Level: 2
+    Details:
+    - ItemLevel: 2
+      Percent: 100
+  - Level: 3
+    Details:
+    - ItemLevel: 3
+      Percent: 100
+  - Level: 4
+    Details:
+    - ItemLevel: 4
+      Percent: 100
+  - Level: 5
+    Details:
+    - ItemLevel: 5
+      Percent: 100
+  - Level: 6
+    Details:
+    - ItemLevel: 5
+      Percent: 50
+    - ItemLevel: 6
+      Percent: 50
+  - Level: 7
+    Details:
+    - ItemLevel: 5
+      Percent: 50
+    - ItemLevel: 6
+      Percent: 30
+    - ItemLevel: 7
+      Percent: 20
+  - Level: 8
+    Details:
+    - ItemLevel: 5
+      Percent: 45
+    - ItemLevel: 6
+      Percent: 35
+    - ItemLevel: 7
+      Percent: 15
+    - ItemLevel: 8
+      Percent: 5
+  - Level: 9
+    Details:
+    - ItemLevel: 5
+      Percent: 40
+    - ItemLevel: 6
+      Percent: 30
+    - ItemLevel: 7
+      Percent: 20
+    - ItemLevel: 8
+      Percent: 10
+  - Level: 10
+    Details:
+    - ItemLevel: 6
+      Percent: 45
+    - ItemLevel: 7
+      Percent: 35
+    - ItemLevel: 8
+      Percent: 15
+    - ItemLevel: 9
+      Percent: 5
+  - Level: 11
+    Details:
+    - ItemLevel: 7
+      Percent: 45
+    - ItemLevel: 8
+      Percent: 35
+    - ItemLevel: 9
+      Percent: 15
+    - ItemLevel: 10
+      Percent: 5
+  - Level: 12
+    Details:
+    - ItemLevel: 8
+      Percent: 45
+    - ItemLevel: 9
+      Percent: 35
+    - ItemLevel: 10
+      Percent: 15
+    - ItemLevel: 11
+      Percent: 5
+  - Level: 13
+    Details:
+    - ItemLevel: 8
+      Percent: 40
+    - ItemLevel: 9
+      Percent: 30
+    - ItemLevel: 10
+      Percent: 20
+    - ItemLevel: 11
+      Percent: 10
+  - Level: 14
+    Details:
+    - ItemLevel: 9
+      Percent: 45
+    - ItemLevel: 10
+      Percent: 35
+    - ItemLevel: 11
+      Percent: 15
+    - ItemLevel: 12
+      Percent: 5
+  - Level: 15
+    Details:
+    - ItemLevel: 9
+      Percent: 40
+    - ItemLevel: 10
+      Percent: 30
+    - ItemLevel: 11
+      Percent: 20
+    - ItemLevel: 12
+      Percent: 10
+  - Level: 16
+    Details:
+    - ItemLevel: 10
+      Percent: 45
+    - ItemLevel: 11
+      Percent: 35
+    - ItemLevel: 12
+      Percent: 15
+    - ItemLevel: 13
+      Percent: 5
+  - Level: 17
+    Details:
+    - ItemLevel: 10
+      Percent: 40
+    - ItemLevel: 11
+      Percent: 30
+    - ItemLevel: 12
+      Percent: 20
+    - ItemLevel: 13
+      Percent: 10
+  - Level: 18
+    Details:
+    - ItemLevel: 11
+      Percent: 45
+    - ItemLevel: 12
+      Percent: 35
+    - ItemLevel: 13
+      Percent: 15
+    - ItemLevel: 14
+      Percent: 5
+  - Level: 19
+    Details:
+    - ItemLevel: 11
+      Percent: 40
+    - ItemLevel: 12
+      Percent: 30
+    - ItemLevel: 13
+      Percent: 20
+    - ItemLevel: 14
+      Percent: 10
+  - Level: 20
+    Details:
+    - ItemLevel: 12
+      Percent: 45
+    - ItemLevel: 13
+      Percent: 35
+    - ItemLevel: 14
+      Percent: 15
+    - ItemLevel: 15
+      Percent: 5
+  - Level: 21
+    Details:
+    - ItemLevel: 12
+      Percent: 40
+    - ItemLevel: 13
+      Percent: 30
+    - ItemLevel: 14
+      Percent: 20
+    - ItemLevel: 15
+      Percent: 10
+  - Level: 22
+    Details:
+    - ItemLevel: 13
+      Percent: 45
+    - ItemLevel: 14
+      Percent: 35
+    - ItemLevel: 15
+      Percent: 15
+    - ItemLevel: 16
+      Percent: 5
+  - Level: 23
+    Details:
+    - ItemLevel: 13
+      Percent: 40
+    - ItemLevel: 14
+      Percent: 30
+    - ItemLevel: 15
+      Percent: 20
+    - ItemLevel: 16
+      Percent: 10
+  - Level: 24
+    Details:
+    - ItemLevel: 14
+      Percent: 45
+    - ItemLevel: 15
+      Percent: 35
+    - ItemLevel: 16
+      Percent: 15
+    - ItemLevel: 17
+      Percent: 5
+  - Level: 25
+    Details:
+    - ItemLevel: 14
+      Percent: 40
+    - ItemLevel: 15
+      Percent: 30
+    - ItemLevel: 16
+      Percent: 20
+    - ItemLevel: 17
+      Percent: 10
+  - Level: 26
+    Details:
+    - ItemLevel: 15
+      Percent: 45
+    - ItemLevel: 16
+      Percent: 35
+    - ItemLevel: 17
+      Percent: 15
+    - ItemLevel: 18
+      Percent: 5
+  - Level: 27
+    Details:
+    - ItemLevel: 15
+      Percent: 40
+    - ItemLevel: 16
+      Percent: 30
+    - ItemLevel: 17
+      Percent: 20
+    - ItemLevel: 18
+      Percent: 10
+  - Level: 28
+    Details:
+    - ItemLevel: 16
+      Percent: 45
+    - ItemLevel: 17
+      Percent: 35
+    - ItemLevel: 18
+      Percent: 15
+    - ItemLevel: 18
+      Percent: 5
+  - Level: 29
+    Details:
+    - ItemLevel: 16
+      Percent: 40
+    - ItemLevel: 17
+      Percent: 30
+    - ItemLevel: 18
+      Percent: 20
+    - ItemLevel: 19
+      Percent: 10
+  - Level: 30
+    Details:
+    - ItemLevel: 17
+      Percent: 45
+    - ItemLevel: 18
+      Percent: 35
+    - ItemLevel: 19
+      Percent: 15
+    - ItemLevel: 20
+      Percent: 5
+  - Level: 31
+    Details:
+    - ItemLevel: 17
+      Percent: 40
+    - ItemLevel: 18
+      Percent: 30
+    - ItemLevel: 19
+      Percent: 20
+    - ItemLevel: 20
+      Percent: 10
+  - Level: 32
+    Details:
+    - ItemLevel: 18
+      Percent: 45
+    - ItemLevel: 19
+      Percent: 35
+    - ItemLevel: 20
+      Percent: 15
+    - ItemLevel: 21
+      Percent: 5

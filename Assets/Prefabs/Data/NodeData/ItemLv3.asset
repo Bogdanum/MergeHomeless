@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf5c9990890936429474357b9d5032d, type: 3}
+  m_Name: ItemLv3
+  m_EditorClassIdentifier: 
+  Name: Item
+  CurrencyId: 2
+  Level: 3
+  PerCircleTime: 4.775
+  ProfitPerSec: 34.782608
+  ProfitPerSecUnit: 0
+  Exp: 3
+  Prices: 15000
+  PricesUnit: 0
+  PricesUpgrade: 1520
+  PricesUnitUpgrade: 0
+  PricesCoefficient: 1.14715
+  PriceUpgradeCoefficient: 1.14715
+  ProfitPerUpgradeCoefficient: 1.073575
+  BuyFromLevel: 1

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1877369905443510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4300246059501438}
+  - component: {fileID: 114279881406777172}
+  - component: {fileID: 114749036587922712}
+  - component: {fileID: 114174274819817026}
+  m_Layer: 0
+  m_Name: Application Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4300246059501438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877369905443510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114279881406777172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877369905443510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3683e42f69296234497f98495961a55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _IsPersistent: 1
+  _LevelData: {fileID: 11400000, guid: c7c1ba21f7e7bf14f83e3af00519d753, type: 2}
+  _ItemNodeGroupData: {fileID: 11400000, guid: 0fd967e336fd4254eb1daed81bb98372, type: 2}
+  _Unit: {fileID: 11400000, guid: ed848d8bb1edfad499645b24d0be7a6c, type: 2}
+  _RandomReward: {fileID: 11400000, guid: b3990c18f99736e4b82d2e55fc21e929, type: 2}
+  _RandomTouchBox: {fileID: 11400000, guid: c7290c0d6660df24ba6b4a56b569ed9e, type: 2}
+  _RewardIcon: {fileID: 11400000, guid: 9752d170b11d34930854ea12592673c2, type: 2}
+  IsDialogEnable: 0
+--- !u!114 &114749036587922712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877369905443510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2433f4570c1404da40af9ea0b12741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeBetweenSlowUpdateCalls: 0.14285715
+  ProfilerDebugAmount: 0
+  UpdateCoroutines: 0
+  FixedUpdateCoroutines: 0
+  LateUpdateCoroutines: 0
+  SlowUpdateCoroutines: 0
+--- !u!114 &114174274819817026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877369905443510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab60eff9050b84a68909de75f72997b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _IsPersistent: 0
+  CurrencyIcon: {fileID: 11400000, guid: c60e26bec9ee8d546ae7d5e5a0c6625e, type: 2}
+  ItemDataGroup: {fileID: 11400000, guid: 0fd967e336fd4254eb1daed81bb98372, type: 2}
+  GridNodeData: {fileID: 11400000, guid: 13d4b525c1802da40a6d1f9a84fccd9b, type: 2}
+  ItemMoving: {fileID: 11400000, guid: e9bffa877fb4d824ea342703ddd75142, type: 2}
+  ItemNodeIdleImage: {fileID: 11400000, guid: 4dfb2b27f2c36984c9caf1b48d8a98f4, type: 2}
+  EquipmentData: {fileID: 11400000, guid: efb7f78c13ab9644aa74e2902fafb206, type: 2}
+  EquipmentIconData: {fileID: 11400000, guid: e383f83d33f7e438d97e2c3c04ff5cd1, type: 2}
+  EquipmentImage: {fileID: 11400000, guid: 8fee97dcf87053b4d82e59ad8a03a0c2, type: 2}
+  MultiRewardData: {fileID: 11400000, guid: 4fa50ca4d7ae04730b444fe336545f2b, type: 2}
+  ItemShopDetail: {fileID: 11400000, guid: e93a81f05dc724ac7a78edcbf202b0f9, type: 2}
+  ItemDiamondPrices: {fileID: 11400000, guid: b392b6defb656d04d9014691c0b9f4de, type: 2}
+  BoostData: {fileID: 11400000, guid: 38f698fa8d13238439a7b060b9984a4a, type: 2}
+  NumberIcon: {fileID: 11400000, guid: 45735f0a3efc9a944b7ac8001dd4be1f, type: 2}
+  RewardLevelup: {fileID: 11400000, guid: 45efbbf1f0b384445bdfc9b4b0ee4f43, type: 2}
+  ItemHeadData: {fileID: 11400000, guid: 3e2986997481f5f4eb34e8c9fa57b66b, type: 2}
+  ItemFaceData: {fileID: 11400000, guid: fdb787a06d80d1d42851d57a34f3fc48, type: 2}

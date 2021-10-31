@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Text_bonus_gems" xml:space="preserve">
+		<value>ダイヤモンド</value>
+	</data>
+	<data name="Text_completed_mission" xml:space="preserve">
+		<value>おめでとうございます！ あなたは使命を完了しています！</value>
+	</data>
+	<data name="Text_daily_quest_will_back" xml:space="preserve">
+		<value>明日の新しいクエストのために戻ってチェック！</value>
+	</data>
+	<data name="Text_description_add_seconds" xml:space="preserve">
+		<value>別の{0}秒を追加します</value>
+	</data>
+	<data name="Text_description_connect_facebook_failed" xml:space="preserve">
+		<value>Facebookへの接続に失敗しました。 もう一度お試しください。</value>
+	</data>
+	<data name="Text_description_discount_shop" xml:space="preserve">
+		<value>すべて売り{0}%オフ</value>
+	</data>
+	<data name="Text_description_earning_each_sec" xml:space="preserve">
+		<value>{0}/秒</value>
+	</data>
+	<data name="Text_description_earning_shop" xml:space="preserve">
+		<value>すべての利益&lt;color=#FFED00FF&gt;+{0}%&lt;/color&gt;</value>
+	</data>
+	<data name="Text_description_equip_discount_buy" xml:space="preserve">
+		<value>購入は{0}%削減されます。</value>
+	</data>
+	<data name="Text_description_equip_discount_upgrade" xml:space="preserve">
+		<value>アップグレードは{0}%削減されます。</value>
+	</data>
+	<data name="Text_description_equip_earning" xml:space="preserve">
+		<value>収入は{0}%増加します。</value>
+	</data>
+	<data name="Text_description_failed_to_sync_cloud" xml:space="preserve">
+		<value>進行状況の同期または読み込みに失敗しました。 もう一度お試しください。</value>
+	</data>
+	<data name="Text_description_follow_and_talk_us" xml:space="preserve">
+		<value>私たちのサイト上でより多くのゲーム！</value>
+	</data>
+	<data name="Text_description_follow_on_twitter" xml:space="preserve">
+		<value>Twitterで私たちに従ってください！</value>
+	</data>
+	<data name="Text_description_get_revenue_for_times" xml:space="preserve">
+		<value>あなたが{0}のために離れている間、あなたのために</value>
+	</data>
+	<data name="Text_description_go_go" xml:space="preserve">
+		<value>始めましょう！!!</value>
+	</data>
+	<data name="Text_description_here_your_reward" xml:space="preserve">
+		<value>ここにあなたの報酬があります</value>
+	</data>
+	<data name="Text_description_increase_exp" xml:space="preserve">
+		<value>&lt;color=#FFED00FF&gt;+{0}%&lt;/color&gt;より多くのXP</value>
+	</data>
+	<data name="Text_description_invite_friend_get_profit_boost" xml:space="preserve">
+		<value>友人を招待します。 利益のブーストを得る！</value>
+	</data>
+	<data name="Text_description_locked" xml:space="preserve">
+		<value>おっと.. ロックされてる！</value>
+	</data>
+	<data name="Text_description_lv" xml:space="preserve">
+		<value>レベル。{0}</value>
+	</data>
+	<data name="Text_description_mission_buy_item" xml:space="preserve">
+		<value>{0}回購入します。</value>
+	</data>
+	<data name="Text_description_mission_get_bonus" xml:space="preserve">
+		<value>報酬{0}回を取得します。</value>
+	</data>
+	<data name="Text_description_mission_like_facebook" xml:space="preserve">
+		<value>私たちのFacebookページのように</value>
+	</data>
+	<data name="Text_description_mission_merge" xml:space="preserve">
+		<value>{0}回マージします。</value>
+	</data>
+	<data name="Text_description_mission_not_complete" xml:space="preserve">
+		<value>クエストは完了しません！</value>
+	</data>
+	<data name="Text_description_mission_own_item" xml:space="preserve">
+		<value>{0}レベルを取得します。{1}セントラルパーク内の文字。</value>
+	</data>
+	<data name="Text_description_mission_tap_box" xml:space="preserve">
+		<value>{0}回タップします。</value>
+	</data>
+	<data name="Text_description_mission_tap_item" xml:space="preserve">
+		<value>{0}回タップします。</value>
+	</data>
+	<data name="Text_description_mission_upgrade_item" xml:space="preserve">
+		<value>{0}回アップグレードします。</value>
+	</data>
+	<data name="Text_description_more_come_soon" xml:space="preserve">
+		<value>より多くのすぐに来る</value>
+	</data>
+	<data name="Text_description_no_more_ads" xml:space="preserve">
+		<value>利用可能な広告がありません！</value>
+	</data>
+	<data name="Text_description_no_more_park" xml:space="preserve">
+		<value>これ以上の駐車場は利用できません！</value>
+	</data>
+	<data name="Text_description_not_enough_cash" xml:space="preserve">
+		<value>おっと.. 十分なコインではありません！</value>
+	</data>
+	<data name="Text_description_not_enough_coca" xml:space="preserve">
+		<value>おっと.. 十分なお金ではありません！</value>
+	</data>
+	<data name="Text_description_not_enough_diamonds" xml:space="preserve">
+		<value>おっと.. ダイヤモンドが足りない！</value>
+	</data>
+	<data name="Text_description_notification_1" xml:space="preserve">
+		<value>より多くのコインを獲得するための時間！</value>
+	</data>
+	<data name="Text_description_notification_2" xml:space="preserve">
+		<value>おはようございます。おはようございます。 参加し、より多くのコインを獲得！</value>
+	</data>
+	<data name="Text_description_notification_3" xml:space="preserve">
+		<value>新しい日と新しいゲーム！</value>
+	</data>
+	<data name="Text_description_notification_4" xml:space="preserve">
+		<value>ヒーローになる時間！ 遊ぼう！!!</value>
+	</data>
+	<data name="Text_description_notification_5" xml:space="preserve">
+		<value>再生し、億万長者になる！</value>
+	</data>
+	<data name="Text_description_racing" xml:space="preserve">
+		<value>マージし、より多くの文字のロックを解除！</value>
+	</data>
+	<data name="Text_description_racing_II" xml:space="preserve">
+		<value>レースに参加し、より多くのコインを獲得！ 豊かな人間になろう！</value>
+	</data>
+	<data name="Text_description_rate_me" xml:space="preserve">
+		<value>あなたがそれを好きなら分を取り、ゲームを評価してください。</value>
+	</data>
+	<data name="Text_description_reach_level" xml:space="preserve">
+		<value>レベル{0}に達しました。</value>
+	</data>
+	<data name="Text_description_require_level" xml:space="preserve">
+		<value>必要なレベル:{0}</value>
+	</data>
+	<data name="Text_description_revenue_from_ads" xml:space="preserve">
+		<value>ビデオを使用して{0}xを取得する</value>
+	</data>
+	<data name="Text_description_revenue_from_diamonds" xml:space="preserve">
+		<value>{0}xを取得します</value>
+	</data>
+	<data name="Text_description_speed_in" xml:space="preserve">
+		<value>スピードx2インチ</value>
+	</data>
+	<data name="Text_description_spin_more_and_win" xml:space="preserve">
+		<value>より多くのスピン、より多くの勝利！</value>
+	</data>
+	<data name="Text_description_tap_open_chest" xml:space="preserve">
+		<value>それを開くには、胸をタップします</value>
+	</data>
+	<data name="Text_description_tap_to_open" xml:space="preserve">
+		<value>をタップして開きます</value>
+	</data>
+	<data name="Text_description_thank_you" xml:space="preserve">
+		<value>ありがとうございました！</value>
+	</data>
+	<data name="Text_description_time_jump" xml:space="preserve">
+		<value>{0}hタイムジャンプ</value>
+	</data>
+	<data name="Text_description_time_jump_1_day" xml:space="preserve">
+		<value>1日のタイムジャンプ</value>
+	</data>
+	<data name="Text_description_time_jump_14_day" xml:space="preserve">
+		<value>14日間のタイムジャンプ</value>
+	</data>
+	<data name="Text_description_time_jump_30_day" xml:space="preserve">
+		<value>30日間のタイムジャンプ</value>
+	</data>
+	<data name="Text_description_time_jump_7_day" xml:space="preserve">
+		<value>7日間のタイムジャンプ</value>
+	</data>
+	<data name="Text_description_tutorial_earning" xml:space="preserve">
+		<value>レースに文字を入れて、コインを獲得するために開始します。</value>
+	</data>
+	<data name="Text_description_tutorial_merge" xml:space="preserve">
+		<value>融合二つの文字は、より高いレベルで別の文字を取得するには、低レベル。</value>
+	</data>
+	<data name="Text_description_tutorial_speed_up" xml:space="preserve">
+		<value>のは、高速ダイヤモンドや広告を見てお金を稼ぐためにスピードアップしてみましょう。</value>
+	</data>
+	<data name="Text_description_tutorial_start_game" xml:space="preserve">
+		<value>あなたの私の世界に参加してくれてありがとう。 あなたが好きなら、私を楽しみ、評価してみましょう！</value>
+	</data>
+	<data name="Text_description_tutorial_upgrade" xml:space="preserve">
+		<value>のは、文字をアップグレードしたり、より多くのコインを獲得するために機器をアップグレードしましょう。</value>
+	</data>
+	<data name="Text_description_ufo_gift" xml:space="preserve">
+		<value>未来からのお届け！ あなたは得た</value>
+	</data>
+	<data name="Text_description_update_android" xml:space="preserve">
+		<value>Google Playで利用可能な新しいアップデート！ 今すぐ更新！</value>
+	</data>
+	<data name="Text_description_update_ios" xml:space="preserve">
+		<value>App Storeで利用可能な新しいアップデート！ 今すぐ更新！</value>
+	</data>
+	<data name="Text_description_watch_to_get_free" xml:space="preserve">
+		<value>無料で取得するために見ます:</value>
+	</data>
+	<data name="Text_description_we_are_collected" xml:space="preserve">
+		<value>私たちは収集しました</value>
+	</data>
+	<data name="Text_description_welcome_racer" xml:space="preserve">
+		<value>ファンタジーの世界へようこそ！</value>
+	</data>
+	<data name="Text_description_will_available_in" xml:space="preserve">
+		<value>で利用できるようになります:</value>
+	</data>
+	<data name="Text_description_you_are_claimed" xml:space="preserve">
+		<value>おめでとうボス! あなたは主張してきました</value>
+	</data>
+	<data name="Text_description_you_earned" xml:space="preserve">
+		<value>私たちは収集しました</value>
+	</data>
+	<data name="Text_descriptuon_profit_speed_x" xml:space="preserve">
+		<value>利益スピードx{0}</value>
+	</data>
+	<data name="Text_inp_window_button_ok" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="Text_inp_window_error" xml:space="preserve">
+		<value>名前が取られました！</value>
+	</data>
+	<data name="Text_inp_window_forb" xml:space="preserve">
+		<value>名前は禁止されていました！</value>
+	</data>
+	<data name="Text_inp_window_header" xml:space="preserve">
+		<value>名前を入力します。</value>
+	</data>
+	<data name="Text_label_back" xml:space="preserve">
+		<value>戻る</value>
+	</data>
+	<data name="Text_label_battery_saver" xml:space="preserve">
+		<value>バッテリーセーバー</value>
+	</data>
+	<data name="Text_label_bonus_reward" xml:space="preserve">
+		<value>ボーナス報酬</value>
+	</data>
+	<data name="Text_label_booster" xml:space="preserve">
+		<value>ブースター</value>
+	</data>
+	<data name="Text_label_buy" xml:space="preserve">
+		<value>購入</value>
+	</data>
+	<data name="Text_label_claim" xml:space="preserve">
+		<value>クレーム</value>
+	</data>
+	<data name="Text_label_come_back_later_for_spin" xml:space="preserve">
+		<value>スピンN'勝つために後で戻ってきて、ボス！</value>
+	</data>
+	<data name="Text_label_completed" xml:space="preserve">
+		<value>完成しました</value>
+	</data>
+	<data name="Text_label_currency_exchange" xml:space="preserve">
+		<value>外貨両替</value>
+	</data>
+	<data name="Text_label_daily_event_available" xml:space="preserve">
+		<value>毎日のイベントが利用可能！</value>
+	</data>
+	<data name="Text_label_daily_quest" xml:space="preserve">
+		<value>デイリークエスト</value>
+	</data>
+	<data name="Text_label_diamond_shop" xml:space="preserve">
+		<value>ダイヤモンドショップ</value>
+	</data>
+	<data name="Text_label_discount" xml:space="preserve">
+		<value>割引</value>
+	</data>
+	<data name="Text_label_discount_value" xml:space="preserve">
+		<value>{0}%割引</value>
+	</data>
+	<data name="Text_label_earning" xml:space="preserve">
+		<value>稼ぐ</value>
+	</data>
+	<data name="Text_label_event_end_in" xml:space="preserve">
+		<value>で終わる:</value>
+	</data>
+	<data name="Text_label_exchange" xml:space="preserve">
+		<value>交換</value>
+	</data>
+	<data name="Text_label_follow" xml:space="preserve">
+		<value>フォロー</value>
+	</data>
+	<data name="Text_label_free" xml:space="preserve">
+		<value>無料</value>
+	</data>
+	<data name="Text_label_get" xml:space="preserve">
+		<value>{0}を取得します</value>
+	</data>
+	<data name="Text_label_get_x_profit" xml:space="preserve">
+		<value>{0}xの利益を得る！</value>
+	</data>
+	<data name="Text_label_gimme_that" xml:space="preserve">
+		<value>よこせ！</value>
+	</data>
+	<data name="Text_label_give_us_five_stars" xml:space="preserve">
+		<value>私たちに5つ星を与える！</value>
+	</data>
+	<data name="Text_label_handful_of_coins" xml:space="preserve">
+		<value>一握りのコイン</value>
+	</data>
+	<data name="Text_label_invite_friends" xml:space="preserve">
+		<value>友達を招待する</value>
+	</data>
+	<data name="Text_label_item" xml:space="preserve">
+		<value>アイテム</value>
+	</data>
+	<data name="Text_label_item_name_1" xml:space="preserve">
+		<value>バム-ピッグ</value>
+	</data>
+	<data name="Text_label_item_name_10" xml:space="preserve">
+		<value>ヴァガボンド-バム</value>
+	</data>
+	<data name="Text_label_item_name_11" xml:space="preserve">
+		<value>バム-驚異的な</value>
+	</data>
+	<data name="Text_label_item_name_12" xml:space="preserve">
+		<value>バム-ローグ</value>
+	</data>
+	<data name="Text_label_item_name_13" xml:space="preserve">
+		<value>バモスホビオバン</value>
+	</data>
+	<data name="Text_label_item_name_14" xml:space="preserve">
+		<value>お尻の不器用な</value>
+	</data>
+	<data name="Text_label_item_name_15" xml:space="preserve">
+		<value>ストレイバム</value>
+	</data>
+	<data name="Text_label_item_name_16" xml:space="preserve">
+		<value>バムプロフェッショナル</value>
+	</data>
+	<data name="Text_label_item_name_17" xml:space="preserve">
+		<value>ストリートウォーカーバム</value>
+	</data>
+	<data name="Text_label_item_name_18" xml:space="preserve">
+		<value>ゴプニク-バム</value>
+	</data>
+	<data name="Text_label_item_name_19" xml:space="preserve">
+		<value>バムワンダラー</value>
+	</data>
+	<data name="Text_label_item_name_2" xml:space="preserve">
+		<value>バム-スロブ</value>
+	</data>
+	<data name="Text_label_item_name_20" xml:space="preserve">
+		<value>バム・ワンダラー</value>
+	</data>
+	<data name="Text_label_item_name_21" xml:space="preserve">
+		<value>バム-冒険者</value>
+	</data>
+	<data name="Text_label_item_name_22" xml:space="preserve">
+		<value>バム-ノーブルマン</value>
+	</data>
+	<data name="Text_label_item_name_23" xml:space="preserve">
+		<value>バム-ボヤール</value>
+	</data>
+	<data name="Text_label_item_name_24" xml:space="preserve">
+		<value>バムズの男爵</value>
+	</data>
+	<data name="Text_label_item_name_25" xml:space="preserve">
+		<value>バムズ伯爵</value>
+	</data>
+	<data name="Text_label_item_name_26" xml:space="preserve">
+		<value>バム侯爵</value>
+	</data>
+	<data name="Text_label_item_name_27" xml:space="preserve">
+		<value>ホームレスのボヤール</value>
+	</data>
+	<data name="Text_label_item_name_28" xml:space="preserve">
+		<value>バムズの堤防</value>
+	</data>
+	<data name="Text_label_item_name_29" xml:space="preserve">
+		<value>バムズの王子</value>
+	</data>
+	<data name="Text_label_item_name_3" xml:space="preserve">
+		<value>ホームレス</value>
+	</data>
+	<data name="Text_label_item_name_30" xml:space="preserve">
+		<value>ザ-キング-オブ-ザ-バムズ</value>
+	</data>
+	<data name="Text_label_item_name_31" xml:space="preserve">
+		<value>ジェームズ-ボンド</value>
+	</data>
+	<data name="Text_label_item_name_32" xml:space="preserve">
+		<value>カズキ</value>
+	</data>
+	<data name="Text_label_item_name_4" xml:space="preserve">
+		<value>普通のお尻</value>
+	</data>
+	<data name="Text_label_item_name_5" xml:space="preserve">
+		<value>浮浪者</value>
+	</data>
+	<data name="Text_label_item_name_6" xml:space="preserve">
+		<value>バム</value>
+	</data>
+	<data name="Text_label_item_name_7" xml:space="preserve">
+		<value>経験豊富なバム</value>
+	</data>
+	<data name="Text_label_item_name_8" xml:space="preserve">
+		<value>バム-スラッカー</value>
+	</data>
+	<data name="Text_label_item_name_9" xml:space="preserve">
+		<value>お尻の浮浪者</value>
+	</data>
+	<data name="Text_label_language" xml:space="preserve">
+		<value>言語</value>
+	</data>
+	<data name="Text_label_later" xml:space="preserve">
+		<value>後で</value>
+	</data>
+	<data name="Text_label_let_spin" xml:space="preserve">
+		<value>スピンしましょう！</value>
+	</data>
+	<data name="Text_label_level_up" xml:space="preserve">
+		<value>レベルアップ！</value>
+	</data>
+	<data name="Text_label_level_up_upgrade" xml:space="preserve">
+		<value>レベルアップ！</value>
+	</data>
+	<data name="Text_label_max" xml:space="preserve">
+		<value>マックス</value>
+	</data>
+	<data name="Text_label_maxed" xml:space="preserve">
+		<value>マックス-マックス</value>
+	</data>
+	<data name="Text_label_min" xml:space="preserve">
+		<value>分</value>
+	</data>
+	<data name="Text_label_music" xml:space="preserve">
+		<value>音楽</value>
+	</data>
+	<data name="Text_label_next_in" xml:space="preserve">
+		<value>次は:</value>
+	</data>
+	<data name="Text_label_normal_quest" xml:space="preserve">
+		<value>ノーマルクエスト</value>
+	</data>
+	<data name="Text_label_notification" xml:space="preserve">
+		<value>お知らせ</value>
+	</data>
+	<data name="Text_label_offline_earning" xml:space="preserve">
+		<value>おかえりなさいボス</value>
+	</data>
+	<data name="Text_label_other" xml:space="preserve">
+		<value>その他</value>
+	</data>
+	<data name="Text_label_owned" xml:space="preserve">
+		<value>所有</value>
+	</data>
+	<data name="Text_label_pile_of_coins" xml:space="preserve">
+		<value>コインの山</value>
+	</data>
+	<data name="Text_label_profit_speed" xml:space="preserve">
+		<value>利益スピード</value>
+	</data>
+	<data name="Text_label_rate_me" xml:space="preserve">
+		<value>私を評価する</value>
+	</data>
+	<data name="Text_label_rate_now" xml:space="preserve">
+		<value>今それを評価</value>
+	</data>
+	<data name="Text_label_restore_purchase" xml:space="preserve">
+		<value>購入を復元する</value>
+	</data>
+	<data name="Text_label_sale_off" xml:space="preserve">
+		<value>{0}%オフ</value>
+	</data>
+	<data name="Text_label_settings" xml:space="preserve">
+		<value>設定</value>
+	</data>
+	<data name="Text_label_share" xml:space="preserve">
+		<value>シェア</value>
+	</data>
+	<data name="Text_label_shop" xml:space="preserve">
+		<value>ショップ</value>
+	</data>
+	<data name="Text_label_sound" xml:space="preserve">
+		<value>音</value>
+	</data>
+	<data name="Text_label_speed" xml:space="preserve">
+		<value>スピード</value>
+	</data>
+	<data name="Text_label_speed_up" xml:space="preserve">
+		<value>高速化</value>
+	</data>
+	<data name="Text_label_spin_and_win" xml:space="preserve">
+		<value>スピンN'勝利</value>
+	</data>
+	<data name="Text_label_statistics" xml:space="preserve">
+		<value>統計</value>
+	</data>
+	<data name="Text_label_tap_to_close" xml:space="preserve">
+		<value>タップして閉じる</value>
+	</data>
+	<data name="Text_label_unlocked" xml:space="preserve">
+		<value>ロック解除</value>
+	</data>
+	<data name="Text_label_update_now" xml:space="preserve">
+		<value>今すぐ更新</value>
+	</data>
+	<data name="Text_label_upgrade" xml:space="preserve">
+		<value>アップグレード</value>
+	</data>
+	<data name="Text_label_watch_now" xml:space="preserve">
+		<value>今すぐ見る</value>
+	</data>
+	<data name="Text_label_watch_to_spin" xml:space="preserve">
+		<value>回転するために見てください</value>
+	</data>
+	<data name="Text_label_wheel_lucky" xml:space="preserve">
+		<value>ホイールラッキー</value>
+	</data>
+	<data name="Text_label_yeah" xml:space="preserve">
+		<value>イェーイ！</value>
+	</data>
+	<data name="Text_label_your_income" xml:space="preserve">
+		<value>あなたの収入</value>
+	</data>
+	<data name="Text_lb_access_panel_loadinglb" xml:space="preserve">
+		<value>リーダーボードにアクセスするにはインターネット接続が必要です</value>
+	</data>
+	<data name="Text_lb_panel_header" xml:space="preserve">
+		<value>リーダーボード</value>
+	</data>
+	<data name="Text_lb_panel_loadinglb" xml:space="preserve">
+		<value>荷を積む...</value>
+	</data>
+	<data name="Text_lb_panel_show_all_players" xml:space="preserve">
+		<value>トップ100を表示</value>
+	</data>
+	<data name="Text_lb_panel_show_around_players" xml:space="preserve">
+		<value>私の位置を表示する</value>
+	</data>
+	<data name="Text_out_of_mission" xml:space="preserve">
+		<value>よくやった仲間！ 任務は終了しました。 次のミッションはすぐに更新されます。</value>
+	</data>
+	<data name="Text_reward_description_box1" xml:space="preserve">
+		<value>ランダム文字ボックス</value>
+	</data>
+	<data name="Text_reward_description_box2" xml:space="preserve">
+		<value>ランダムな文字を持つ2ボックス</value>
+	</data>
+	<data name="Text_reward_description_diamonds10" xml:space="preserve">
+		<value>ダイヤモンド10個</value>
+	</data>
+	<data name="Text_reward_description_diamonds5" xml:space="preserve">
+		<value>ダイヤモンド5個</value>
+	</data>
+	<data name="Text_reward_description_speedup150" xml:space="preserve">
+		<value>高速化150秒</value>
+	</data>
+	<data name="Text_reward_description_speedup200" xml:space="preserve">
+		<value>高速化200秒</value>
+	</data>
+	<data name="Text_reward_description_x5prof20s" xml:space="preserve">
+		<value>20秒x5の利益を与えます</value>
+	</data>
+	<data name="Text_reward_description_x5prof30s" xml:space="preserve">
+		<value>30秒x5の利益を与えます</value>
+	</data>
+	<data name="Text_title_notification_1" xml:space="preserve">
+		<value>新しい一日を歓迎します！</value>
+	</data>
+	<data name="Text_title_notification_2" xml:space="preserve">
+		<value>素敵な一日を！</value>
+	</data>
+	<data name="Text_title_notification_3" xml:space="preserve">
+		<value>サップパーの日！!!</value>
+	</data>
+</root>

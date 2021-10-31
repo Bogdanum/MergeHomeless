@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34769bd44964f4465a882f49f109820e, type: 3}
+  m_Name: OfflineData
+  m_EditorClassIdentifier: 
+  _OfflineProperties:
+  - Min_Time: 0
+    Max_time: 1
+    PercentProfit: 30
+  - Min_Time: 1
+    Max_time: 2
+    PercentProfit: 20
+  - Min_Time: 2
+    Max_time: 3
+    PercentProfit: 15
+  - Min_Time: 3
+    Max_time: 4
+    PercentProfit: 10
+  - Min_Time: 4
+    Max_time: 5
+    PercentProfit: 8
+  - Min_Time: 5
+    Max_time: 6
+    PercentProfit: 5
+  - Min_Time: 6
+    Max_time: 7
+    PercentProfit: 3
+  - Min_Time: 7
+    Max_time: 8
+    PercentProfit: 2
+  - Min_Time: 8
+    Max_time: 24
+    PercentProfit: 1

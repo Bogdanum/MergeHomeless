@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932217b6cf9b30a41a81730fef5abaf7, type: 3}
+  m_Name: RewardLevelup
+  m_EditorClassIdentifier: 
+  RewardLevelUpProperties:
+  - Level: 2
+    diamond_reward: 2
+    coins_reward: 1000
+    coins_unit_reward: 0
+  - Level: 3
+    diamond_reward: 3
+    coins_reward: 5000
+    coins_unit_reward: 0
+  - Level: 4
+    diamond_reward: 4
+    coins_reward: 15000
+    coins_unit_reward: 0
+  - Level: 5
+    diamond_reward: 5
+    coins_reward: 45000
+    coins_unit_reward: 0
+  - Level: 6
+    diamond_reward: 5
+    coins_reward: 135000
+    coins_unit_reward: 0
+  - Level: 7
+    diamond_reward: 6
+    coins_reward: 405000
+    coins_unit_reward: 0
+  - Level: 8
+    diamond_reward: 6
+    coins_reward: 1215
+    coins_unit_reward: 1
+  - Level: 9
+    diamond_reward: 7
+    coins_reward: 3645
+    coins_unit_reward: 1
+  - Level: 10
+    diamond_reward: 10
+    coins_reward: 10935
+    coins_unit_reward: 1
+  - Level: 11
+    diamond_reward: 11
+    coins_reward: 32805
+    coins_unit_reward: 1
+  - Level: 12
+    diamond_reward: 12
+    coins_reward: 98415
+    coins_unit_reward: 1
+  - Level: 13
+    diamond_reward: 13
+    coins_reward: 295245
+    coins_unit_reward: 1
+  - Level: 14
+    diamond_reward: 14
+    coins_reward: 885735
+    coins_unit_reward: 1
+  - Level: 15
+    diamond_reward: 15
+    coins_reward: 2657
+    coins_unit_reward: 2
+  - Level: 16
+    diamond_reward: 16
+    coins_reward: 7971
+    coins_unit_reward: 2
+  - Level: 17
+    diamond_reward: 17
+    coins_reward: 23914
+    coins_unit_reward: 2
+  - Level: 18
+    diamond_reward: 18
+    coins_reward: 71744
+    coins_unit_reward: 2
+  - Level: 19
+    diamond_reward: 19
+    coins_reward: 215233
+    coins_unit_reward: 2
+  - Level: 20
+    diamond_reward: 20
+    coins_reward: 1937
+    coins_unit_reward: 3
+  - Level: 21
+    diamond_reward: 21
+    coins_reward: 5811
+    coins_unit_reward: 3
+  - Level: 22
+    diamond_reward: 22
+    coins_reward: 17433
+    coins_unit_reward: 3

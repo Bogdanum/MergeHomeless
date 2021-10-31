@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Shop
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BotObject
+    uniqueID: 2080454243
+    locked: 0
+  - name: MidObject
+    uniqueID: 652822511
+    locked: 0
+  - name: TopObject
+    uniqueID: 4094114431
+    locked: 0
+  - name: FxBot
+    uniqueID: 296946815
+    locked: 0
+  - name: BotUI
+    uniqueID: 2908096697
+    locked: 0
+  - name: Fx
+    uniqueID: 1365706477
+    locked: 0
+  - name: UI
+    uniqueID: 3636675077
+    locked: 0
+  - name: TopUI
+    uniqueID: 1272422881
+    locked: 0
+  - name: FxUI
+    uniqueID: 951112461
+    locked: 0
+  - name: Overlayer
+    uniqueID: 3587045737
+    locked: 0
+  - name: FxOverlayer
+    uniqueID: 1726690043
+    locked: 0
+  - name: OverScreen
+    uniqueID: 2391821871
+    locked: 0

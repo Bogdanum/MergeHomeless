@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8053eff1de74274db2cf7c5e64bed27, type: 3}
+  m_Name: RandomTouchBox
+  m_EditorClassIdentifier: 
+  _RewardProperties:
+  - Level: 1
+    Details:
+    - ItemLevel: 1
+      Percent: 100
+  - Level: 2
+    Details:
+    - ItemLevel: 1
+      Percent: 80
+    - ItemLevel: 2
+      Percent: 20
+  - Level: 3
+    Details:
+    - ItemLevel: 1
+      Percent: 70
+    - ItemLevel: 2
+      Percent: 20
+    - ItemLevel: 3
+      Percent: 10
+  - Level: 4
+    Details:
+    - ItemLevel: 1
+      Percent: 60
+    - ItemLevel: 2
+      Percent: 25
+    - ItemLevel: 3
+      Percent: 15
+    - ItemLevel: 4
+      Percent: 10
+  - Level: 5
+    Details:
+    - ItemLevel: 1
+      Percent: 50
+    - ItemLevel: 2
+      Percent: 25
+    - ItemLevel: 3
+      Percent: 15
+    - ItemLevel: 4
+      Percent: 15
+    - ItemLevel: 5
+      Percent: 5
+  - Level: 6
+    Details:
+    - ItemLevel: 1
+      Percent: 45
+    - ItemLevel: 2
+      Percent: 25
+    - ItemLevel: 3
+      Percent: 15
+    - ItemLevel: 4
+      Percent: 10
+    - ItemLevel: 5
+      Percent: 10
+    - ItemLevel: 6
+      Percent: 5
+  - Level: 7
+    Details:
+    - ItemLevel: 1
+      Percent: 40
+    - ItemLevel: 2
+      Percent: 25
+    - ItemLevel: 3
+      Percent: 15
+    - ItemLevel: 4
+      Percent: 10
+    - ItemLevel: 5
+      Percent: 10
+    - ItemLevel: 6
+      Percent: 5
+    - ItemLevel: 7
+      Percent: 5

@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "802712141188",
+    "project_id": "merge-homeless",
+    "storage_bucket": "merge-homeless.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802712141188:android:1af29872e8170d833ff1d1",
+        "android_client_info": {
+          "package_name": "com.askerweb.beggar.homeless.simulator.homeless.simulator.wanderer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802712141188-nl6dep70qmfvbq1fiv95jeolqsnsk865.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Vw6R763i7D5AHKddSWWId4FfqRnKUec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802712141188-nl6dep70qmfvbq1fiv95jeolqsnsk865.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "802712141188-8kf58arjrdnpnrsvdd0nul74db69hmuo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.askerweb.beggar.homeless.simulator.homeless.simulator.wanderer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802712141188:android:71228657c9e45e743ff1d1",
+        "android_client_info": {
+          "package_name": "com.askerweb.beggar_homeless_simulator.homeless_simulator_wanderer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802712141188-9aruhh34dhl0v8cr1leq7qsqph7un247.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.askerweb.beggar_homeless_simulator.homeless_simulator_wanderer",
+            "certificate_hash": "a1ae4b93670514de2b8b5c67051728e85643dfce"
+          }
+        },
+        {
+          "client_id": "802712141188-nl6dep70qmfvbq1fiv95jeolqsnsk865.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Vw6R763i7D5AHKddSWWId4FfqRnKUec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802712141188-nl6dep70qmfvbq1fiv95jeolqsnsk865.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "802712141188-8kf58arjrdnpnrsvdd0nul74db69hmuo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.askerweb.beggar.homeless.simulator.homeless.simulator.wanderer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

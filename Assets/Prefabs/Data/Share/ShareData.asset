@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 880edc663e5be4e169e5a581ca9ec2c7, type: 3}
+  m_Name: ShareData
+  m_EditorClassIdentifier: 
+  _ShareDataProperties:
+  - ItemLevel: 1
+    ValueReward: 1000
+    UnitReward: 0
+  - ItemLevel: 2
+    ValueReward: 1000
+    UnitReward: 0
+  - ItemLevel: 3
+    ValueReward: 1000
+    UnitReward: 0
+  - ItemLevel: 4
+    ValueReward: 1000
+    UnitReward: 0
+  - ItemLevel: 5
+    ValueReward: 1000
+    UnitReward: 0
+  - ItemLevel: 6
+    ValueReward: 2000
+    UnitReward: 0
+  - ItemLevel: 7
+    ValueReward: 5000
+    UnitReward: 0
+  - ItemLevel: 8
+    ValueReward: 15000
+    UnitReward: 0
+  - ItemLevel: 9
+    ValueReward: 44000
+    UnitReward: 0
+  - ItemLevel: 10
+    ValueReward: 136000
+    UnitReward: 0
+  - ItemLevel: 11
+    ValueReward: 421000
+    UnitReward: 0
+  - ItemLevel: 12
+    ValueReward: 1.306
+    UnitReward: 2
+  - ItemLevel: 13
+    ValueReward: 4.178
+    UnitReward: 2
+  - ItemLevel: 14
+    ValueReward: 13.786
+    UnitReward: 2
+  - ItemLevel: 15
+    ValueReward: 41.939
+    UnitReward: 2
+  - ItemLevel: 16
+    ValueReward: 146.788
+    UnitReward: 2
+  - ItemLevel: 17
+    ValueReward: 528.436
+    UnitReward: 2
+  - ItemLevel: 18
+    ValueReward: 1.902
+    UnitReward: 3
+  - ItemLevel: 19
+    ValueReward: 5.036
+    UnitReward: 3
+  - ItemLevel: 20
+    ValueReward: 14.1
+    UnitReward: 3
+  - ItemLevel: 21
+    ValueReward: 39.48
+    UnitReward: 3
+  - ItemLevel: 22
+    ValueReward: 118.439
+    UnitReward: 3
+  - ItemLevel: 23
+    ValueReward: 318.207
+    UnitReward: 3
+  - ItemLevel: 24
+    ValueReward: 1.018
+    UnitReward: 4
+  - ItemLevel: 25
+    ValueReward: 3.36
+    UnitReward: 4
+  - ItemLevel: 26
+    ValueReward: 11.425
+    UnitReward: 4
+  - ItemLevel: 27
+    ValueReward: 38.845
+    UnitReward: 4
+  - ItemLevel: 28
+    ValueReward: 89.641
+    UnitReward: 4
+  - ItemLevel: 29
+    ValueReward: 286.853
+    UnitReward: 4
+  - ItemLevel: 30
+    ValueReward: 717.132
+    UnitReward: 4
+  - ItemLevel: 31
+    ValueReward: 1.506
+    UnitReward: 5
+  - ItemLevel: 32
+    ValueReward: 3.388
+    UnitReward: 5

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e5c8297c252403ab6ea704ca0a57b2, type: 3}
+  m_Name: WheelLuckyData
+  m_EditorClassIdentifier: 
+  _WheelLuckyProperties:
+  - Id: 0
+    Quantity: 20
+    Percent: 15
+    Icon: {fileID: 21300000, guid: 6b7655e2ae88a455695d80095835c1ae, type: 3}
+    DescriptionID: Text_reward_description_x5prof20s
+  - Id: 1
+    Quantity: 10
+    Percent: 2
+    Icon: {fileID: 21300000, guid: 4f4a625a8162646049347d3f8988e395, type: 3}
+    DescriptionID: Text_reward_description_diamonds10
+  - Id: 0
+    Quantity: 30
+    Percent: 10
+    Icon: {fileID: 21300000, guid: 6b7655e2ae88a455695d80095835c1ae, type: 3}
+    DescriptionID: Text_reward_description_x5prof30s
+  - Id: 2
+    Quantity: 150
+    Percent: 20
+    Icon: {fileID: 21300000, guid: 3d5b4c59dd7bb4dc880130d6edd74578, type: 3}
+    DescriptionID: Text_reward_description_speedup150
+  - Id: 1
+    Quantity: 5
+    Percent: 5
+    Icon: {fileID: 21300000, guid: 4f4a625a8162646049347d3f8988e395, type: 3}
+    DescriptionID: Text_reward_description_diamonds5
+  - Id: 3
+    Quantity: 1
+    Percent: 30
+    Icon: {fileID: 21300000, guid: c0a473a425785415db9261e395c09251, type: 3}
+    DescriptionID: Text_reward_description_box1
+  - Id: 2
+    Quantity: 200
+    Percent: 15
+    Icon: {fileID: 21300000, guid: 3d5b4c59dd7bb4dc880130d6edd74578, type: 3}
+    DescriptionID: Text_reward_description_speedup200
+  - Id: 3
+    Quantity: 2
+    Percent: 20
+    Icon: {fileID: 21300000, guid: c0a473a425785415db9261e395c09251, type: 3}
+    DescriptionID: Text_reward_description_box2

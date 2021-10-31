@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8545aa7c248bb744bbea919e89059136, type: 3}
+  m_Name: Increase Earning Coin
+  m_EditorClassIdentifier: 
+  Name: Car Line(lv1)
+  AbilityId: 1
+  CurrencyId: 2
+  UpgradeCoefficient: 1.025
+  Price: 1000
+  PriceUnit: 0
+  PriceCoefficient: 1.05
+  UpgradeFromLevel: 0
+  MaxLevel: 0

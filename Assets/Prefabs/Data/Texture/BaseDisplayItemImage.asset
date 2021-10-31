@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e14034ab5dccc14bbbee6d953925885, type: 3}
+  m_Name: BaseDisplayItemImage
+  m_EditorClassIdentifier: 
+  _Item:
+  - Level: 1
+    Icon: {fileID: 21300000, guid: 5e05d8528d08c4a1a9f3bc0cde711113, type: 3}
+  - Level: 2
+    Icon: {fileID: 21300000, guid: 4695ba6482bd64b54b75d03328a300f3, type: 3}
+  - Level: 3
+    Icon: {fileID: 21300000, guid: 01608b4330d3b42bd83762af000d3852, type: 3}
+  - Level: 4
+    Icon: {fileID: 21300000, guid: 7f5d22aabfda6480095babf9944e0edb, type: 3}
+  - Level: 5
+    Icon: {fileID: 21300000, guid: 2af54d27a14ca4a9c9c44ce6e4554445, type: 3}
+  - Level: 6
+    Icon: {fileID: 21300000, guid: 53afa6714bd4148b9bb2999e2e662869, type: 3}
+  - Level: 7
+    Icon: {fileID: 21300000, guid: 437fb0b1a4e024738a0067c56f61dcca, type: 3}
+  - Level: 8
+    Icon: {fileID: 21300000, guid: a8389aaafce974b10962c18beee507b3, type: 3}
+  - Level: 9
+    Icon: {fileID: 21300000, guid: 4e70f7e4654bb434ba7370ffb0ce65ef, type: 3}
+  - Level: 10
+    Icon: {fileID: 21300000, guid: 89255ad3fb49649e09d3aa62cb4224ee, type: 3}
+  - Level: 11
+    Icon: {fileID: 21300000, guid: 0ad9700f7a7a244a984b4394d321db93, type: 3}
+  - Level: 12
+    Icon: {fileID: 21300000, guid: c986edb11e68d4fceab44bb00a713eae, type: 3}
+  - Level: 13
+    Icon: {fileID: 21300000, guid: 74e3227b5fd62442b83d25bbafa0d779, type: 3}
+  - Level: 14
+    Icon: {fileID: 21300000, guid: 645ad733093d148ba8743588ccaaa69e, type: 3}
+  - Level: 15
+    Icon: {fileID: 21300000, guid: 57441d0ba51034c87b1ef7f665301c31, type: 3}
+  - Level: 16
+    Icon: {fileID: 21300000, guid: b1ac377714dab4da293b637ca7f08c8f, type: 3}
+  - Level: 17
+    Icon: {fileID: 21300000, guid: ab6577eea4e3d43579991e4d5951cf8c, type: 3}
+  - Level: 18
+    Icon: {fileID: 21300000, guid: 4eb1244a552d34c3e9dc17ce49e08e4c, type: 3}
+  - Level: 19
+    Icon: {fileID: 21300000, guid: 1888ed68963ee48d08913e9fb1aef0f4, type: 3}
+  - Level: 20
+    Icon: {fileID: 21300000, guid: fcd04cebb76da4e46a017ac78e5860ce, type: 3}
+  - Level: 21
+    Icon: {fileID: 21300000, guid: a6c1982e58bcf4520bb8833ac0339177, type: 3}
+  - Level: 22
+    Icon: {fileID: 21300000, guid: 5e08e8cf9d0b94b19a937ee25d0b2c23, type: 3}
+  - Level: 23
+    Icon: {fileID: 21300000, guid: 6471190ddff9b463a988cbdfe1442fbf, type: 3}
+  - Level: 24
+    Icon: {fileID: 21300000, guid: 3e130095d76bd457b8f6f31693194f3f, type: 3}
+  - Level: 25
+    Icon: {fileID: 21300000, guid: 0beb0702981964d6d8818afdf1c71408, type: 3}
+  - Level: 26
+    Icon: {fileID: 21300000, guid: 5d51529bb9c244d9d9731043c245d461, type: 3}
+  - Level: 27
+    Icon: {fileID: 21300000, guid: e369d45473a4e491f99aa2306038568d, type: 3}
+  - Level: 28
+    Icon: {fileID: 21300000, guid: 6097b37fc1fd8477ea315fad976cd6fc, type: 3}
+  - Level: 29
+    Icon: {fileID: 21300000, guid: 0e514e3148db4492e8e21ce077a84b33, type: 3}
+  - Level: 30
+    Icon: {fileID: 21300000, guid: 2cd9e2385dc8f4b8f9c6c4a3585a9128, type: 3}

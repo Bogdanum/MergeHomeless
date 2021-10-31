@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Text_bonus_gems" xml:space="preserve">
+		<value>Алмаза</value>
+	</data>
+	<data name="Text_completed_mission" xml:space="preserve">
+		<value>Поздравляем! Вы выполнили задание!</value>
+	</data>
+	<data name="Text_daily_quest_will_back" xml:space="preserve">
+		<value>Проверь раздел завтра, чтобы получить новый квест!</value>
+	</data>
+	<data name="Text_description_add_seconds" xml:space="preserve">
+		<value>Добавьте еще {0} секунд</value>
+	</data>
+	<data name="Text_description_connect_facebook_failed" xml:space="preserve">
+		<value>Соединение с Facebook прервано. Попробуйте еще раз.</value>
+	</data>
+	<data name="Text_description_discount_shop" xml:space="preserve">
+		<value>Все продается с {0}% скидкой!</value>
+	</data>
+	<data name="Text_description_earning_each_sec" xml:space="preserve">
+		<value>{0}/сек</value>
+	</data>
+	<data name="Text_description_earning_shop" xml:space="preserve">
+		<value>Все доходы &lt;color=#FFED00FF&gt;+{0}%&lt;/color&gt;</value>
+	</data>
+	<data name="Text_description_equip_discount_buy" xml:space="preserve">
+		<value>Стоимость покупки персонажа будет уменьшена на {0}%</value>
+	</data>
+	<data name="Text_description_equip_discount_upgrade" xml:space="preserve">
+		<value>Стоимость улучшения персонажа будет уменьшена на {0}%</value>
+	</data>
+	<data name="Text_description_equip_earning" xml:space="preserve">
+		<value>Доход будет увеличен на {0}%.</value>
+	</data>
+	<data name="Text_description_failed_to_sync_cloud" xml:space="preserve">
+		<value>Ошибка при синхронизации или загрузке игры. Попробуйте позже.</value>
+	</data>
+	<data name="Text_description_follow_and_talk_us" xml:space="preserve">
+		<value>Больше игр на нашем сайте!</value>
+	</data>
+	<data name="Text_description_follow_on_twitter" xml:space="preserve">
+		<value>Подпишитесь на наш Twitter!</value>
+	</data>
+	<data name="Text_description_get_revenue_for_times" xml:space="preserve">
+		<value>пока вас не было {0}</value>
+	</data>
+	<data name="Text_description_go_go" xml:space="preserve">
+		<value>Поехали!</value>
+	</data>
+	<data name="Text_description_here_your_reward" xml:space="preserve">
+		<value>Ваша награда:</value>
+	</data>
+	<data name="Text_description_increase_exp" xml:space="preserve">
+		<value>На &lt;color=#FFED00FF&gt;+{0}%&lt;/color&gt; больше очков опыта</value>
+	</data>
+	<data name="Text_description_invite_friend_get_profit_boost" xml:space="preserve">
+		<value>Приглашай друзей и получай бусты доходов!</value>
+	</data>
+	<data name="Text_description_locked" xml:space="preserve">
+		<value>Ой ... Это заперто!</value>
+	</data>
+	<data name="Text_description_lv" xml:space="preserve">
+		<value>Уp.{0}</value>
+	</data>
+	<data name="Text_description_mission_buy_item" xml:space="preserve">
+		<value>Купить {0} раз.</value>
+	</data>
+	<data name="Text_description_mission_get_bonus" xml:space="preserve">
+		<value>Смотрите рекламу и получайте бонус {0} раз.</value>
+	</data>
+	<data name="Text_description_mission_like_facebook" xml:space="preserve">
+		<value>Лайкните нашу страницу в Facebook</value>
+	</data>
+	<data name="Text_description_mission_merge" xml:space="preserve">
+		<value>Объединить {0} раз.</value>
+	</data>
+	<data name="Text_description_mission_not_complete" xml:space="preserve">
+		<value>Квест не завершен!</value>
+	</data>
+	<data name="Text_description_mission_own_item" xml:space="preserve">
+		<value>Получить {0} Ур. {1} Персонажей в Центральном парке.</value>
+	</data>
+	<data name="Text_description_mission_tap_box" xml:space="preserve">
+		<value>Распакуйте {0} раз.</value>
+	</data>
+	<data name="Text_description_mission_tap_item" xml:space="preserve">
+		<value>Тапни по персонажу {0} раз.</value>
+	</data>
+	<data name="Text_description_mission_upgrade_item" xml:space="preserve">
+		<value>Улучшения {0} раз.</value>
+	</data>
+	<data name="Text_description_more_come_soon" xml:space="preserve">
+		<value>Приготовься...</value>
+	</data>
+	<data name="Text_description_no_more_ads" xml:space="preserve">
+		<value>Минуточку! Видео загружается…</value>
+	</data>
+	<data name="Text_description_no_more_park" xml:space="preserve">
+		<value>Нет свободного места!</value>
+	</data>
+	<data name="Text_description_not_enough_cash" xml:space="preserve">
+		<value>Не хватает монет на покупку!</value>
+	</data>
+	<data name="Text_description_not_enough_coca" xml:space="preserve">
+		<value>Упс… Недостаточно денег!</value>
+	</data>
+	<data name="Text_description_not_enough_diamonds" xml:space="preserve">
+		<value>Ой… Не хватает алмазов!</value>
+	</data>
+	<data name="Text_description_notification_1" xml:space="preserve">
+		<value>Time for earning more coins!</value>
+	</data>
+	<data name="Text_description_notification_2" xml:space="preserve">
+		<value>Доброе утро! Заходите и зарабатывайте больше монет!</value>
+	</data>
+	<data name="Text_description_notification_3" xml:space="preserve">
+		<value>Новый день и новая игра!</value>
+	</data>
+	<data name="Text_description_notification_4" xml:space="preserve">
+		<value>Время добиваться новых вершин! Заходите!</value>
+	</data>
+	<data name="Text_description_notification_5" xml:space="preserve">
+		<value>Играй и становись миллиардером!</value>
+	</data>
+	<data name="Text_description_racing" xml:space="preserve">
+		<value>Объединяйте и разблокируйте больше персонажей!</value>
+	</data>
+	<data name="Text_description_racing_II" xml:space="preserve">
+		<value>Время зарабатывать больше денег!</value>
+	</data>
+	<data name="Text_description_rate_me" xml:space="preserve">
+		<value>Пожалуйста, поставьте оценку нашей игре.</value>
+	</data>
+	<data name="Text_description_reach_level" xml:space="preserve">
+		<value>Вы достигли уровня {0}.</value>
+	</data>
+	<data name="Text_description_require_level" xml:space="preserve">
+		<value>Требуемый уровень: {0}</value>
+	</data>
+	<data name="Text_description_revenue_from_ads" xml:space="preserve">
+		<value>Получите {0}x за видео</value>
+	</data>
+	<data name="Text_description_revenue_from_diamonds" xml:space="preserve">
+		<value>Получите {0}x за</value>
+	</data>
+	<data name="Text_description_speed_in" xml:space="preserve">
+		<value>Все доходы будут {0}-кратными!</value>
+	</data>
+	<data name="Text_description_spin_more_and_win" xml:space="preserve">
+		<value>Крутите больше, получайте больше!</value>
+	</data>
+	<data name="Text_description_tap_open_chest" xml:space="preserve">
+		<value>Нажмите на подарок, чтобы открыть его!</value>
+	</data>
+	<data name="Text_description_tap_to_open" xml:space="preserve">
+		<value>Открыть</value>
+	</data>
+	<data name="Text_description_thank_you" xml:space="preserve">
+		<value>Спасибо!</value>
+	</data>
+	<data name="Text_description_time_jump" xml:space="preserve">
+		<value>Скачок времени {0}ч</value>
+	</data>
+	<data name="Text_description_time_jump_1_day" xml:space="preserve">
+		<value>ПРЫЖОК ВО ВРЕМЕНИ НА 1 ДЕНЬ</value>
+	</data>
+	<data name="Text_description_time_jump_14_day" xml:space="preserve">
+		<value>ПРЫЖОК ВО ВРЕМЕНИ НА 14 ДНЕЙ</value>
+	</data>
+	<data name="Text_description_time_jump_30_day" xml:space="preserve">
+		<value>ПРЫЖОК ВО ВРЕМЕНИ НА 30 ДНЕЙ</value>
+	</data>
+	<data name="Text_description_time_jump_7_day" xml:space="preserve">
+		<value>ПРЫЖОК ВО ВРЕМЕНИ НА 7 ДНЕЙ</value>
+	</data>
+	<data name="Text_description_tutorial_earning" xml:space="preserve">
+		<value>Переместите персонажа на гонку и начните зарабатывать!</value>
+	</data>
+	<data name="Text_description_tutorial_merge" xml:space="preserve">
+		<value>Слияние двух персонажей меньшего уровня дает нового персонажа с более высоким уровнем.</value>
+	</data>
+	<data name="Text_description_tutorial_speed_up" xml:space="preserve">
+		<value>Увеличить скорость получения монет можно с помощью алмазов или просмотра рекламы.</value>
+	</data>
+	<data name="Text_description_tutorial_start_game" xml:space="preserve">
+		<value>Спасибо, что играете в нашу игру. Оцените нас, если вам понравилось</value>
+	</data>
+	<data name="Text_description_tutorial_upgrade" xml:space="preserve">
+		<value>Улучшайте персонажей или бонусы, чтобы получать больше монет.</value>
+	</data>
+	<data name="Text_description_ufo_gift" xml:space="preserve">
+		<value>Доставка из будущего! Вы получили</value>
+	</data>
+	<data name="Text_description_update_android" xml:space="preserve">
+		<value>Новое обновление доступно в Google Play!</value>
+	</data>
+	<data name="Text_description_update_ios" xml:space="preserve">
+		<value>Новое обновление доступно в App Store!</value>
+	</data>
+	<data name="Text_description_watch_to_get_free" xml:space="preserve">
+		<value>Посмотрите видео чтобы получить:</value>
+	</data>
+	<data name="Text_description_we_are_collected" xml:space="preserve">
+		<value>Мы собрали</value>
+	</data>
+	<data name="Text_description_welcome_racer" xml:space="preserve">
+		<value>Добро пожаловать в игру!</value>
+	</data>
+	<data name="Text_description_will_available_in" xml:space="preserve">
+		<value>Будет доступно через:</value>
+	</data>
+	<data name="Text_description_you_are_claimed" xml:space="preserve">
+		<value>Поздравляю! Вы получили</value>
+	</data>
+	<data name="Text_description_you_earned" xml:space="preserve">
+		<value>Вы собрали</value>
+	</data>
+	<data name="Text_descriptuon_profit_speed_x" xml:space="preserve">
+		<value>Темп прибыли x{0}</value>
+	</data>
+	<data name="Text_inp_window_button_ok" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="Text_inp_window_error" xml:space="preserve">
+		<value>Имя уже существует!</value>
+	</data>
+	<data name="Text_inp_window_forb" xml:space="preserve">
+		<value>Имя запрещено!</value>
+	</data>
+	<data name="Text_inp_window_header" xml:space="preserve">
+		<value>Введите имя</value>
+	</data>
+	<data name="Text_label_back" xml:space="preserve">
+		<value>Назад</value>
+	</data>
+	<data name="Text_label_battery_saver" xml:space="preserve">
+		<value>Эконом. Режим</value>
+	</data>
+	<data name="Text_label_bonus_reward" xml:space="preserve">
+		<value>Бонусное вознаграждение</value>
+	</data>
+	<data name="Text_label_booster" xml:space="preserve">
+		<value>Ускоритель</value>
+	</data>
+	<data name="Text_label_buy" xml:space="preserve">
+		<value>Купить</value>
+	</data>
+	<data name="Text_label_claim" xml:space="preserve">
+		<value>Собрать</value>
+	</data>
+	<data name="Text_label_come_back_later_for_spin" xml:space="preserve">
+		<value>Колесо фортуны ждет!</value>
+	</data>
+	<data name="Text_label_completed" xml:space="preserve">
+		<value>Завершено</value>
+	</data>
+	<data name="Text_label_currency_exchange" xml:space="preserve">
+		<value>Обмен валюты</value>
+	</data>
+	<data name="Text_label_daily_event_available" xml:space="preserve">
+		<value>ДОСТУПНО ЕЖЕДНЕВНОЕ СОБЫТИЕ!</value>
+	</data>
+	<data name="Text_label_daily_quest" xml:space="preserve">
+		<value>Ежедневные задания</value>
+	</data>
+	<data name="Text_label_diamond_shop" xml:space="preserve">
+		<value>Алмазный магазин</value>
+	</data>
+	<data name="Text_label_discount" xml:space="preserve">
+		<value>СКИДКА</value>
+	</data>
+	<data name="Text_label_discount_value" xml:space="preserve">
+		<value>{0}% скидка</value>
+	</data>
+	<data name="Text_label_earning" xml:space="preserve">
+		<value>Доход</value>
+	</data>
+	<data name="Text_label_event_end_in" xml:space="preserve">
+		<value>Заканчивается через:</value>
+	</data>
+	<data name="Text_label_exchange" xml:space="preserve">
+		<value>Обмен</value>
+	</data>
+	<data name="Text_label_follow" xml:space="preserve">
+		<value>Подписаться</value>
+	</data>
+	<data name="Text_label_free" xml:space="preserve">
+		<value>Бесплатно</value>
+	</data>
+	<data name="Text_label_get" xml:space="preserve">
+		<value>Получить {0}</value>
+	</data>
+	<data name="Text_label_get_x_profit" xml:space="preserve">
+		<value>Получите {0}x ПРИБЫЛЬ!</value>
+	</data>
+	<data name="Text_label_gimme_that" xml:space="preserve">
+		<value>ПОЛУЧИТЬ</value>
+	</data>
+	<data name="Text_label_give_us_five_stars" xml:space="preserve">
+		<value>ПОСТАВЬТЕ НАМ 5 ЗВЕЗД!</value>
+	</data>
+	<data name="Text_label_handful_of_coins" xml:space="preserve">
+		<value>Немного монет</value>
+	</data>
+	<data name="Text_label_invite_friends" xml:space="preserve">
+		<value>Пригласить друзей</value>
+	</data>
+	<data name="Text_label_item" xml:space="preserve">
+		<value>Предметы</value>
+	</data>
+	<data name="Text_label_item_name_1" xml:space="preserve">
+		<value>Бомж-свинтус</value>
+	</data>
+	<data name="Text_label_item_name_10" xml:space="preserve">
+		<value>Бомж вагабунд</value>
+	</data>
+	<data name="Text_label_item_name_11" xml:space="preserve">
+		<value>Бомж - шатун</value>
+	</data>
+	<data name="Text_label_item_name_12" xml:space="preserve">
+		<value>Бомж нищеброд</value>
+	</data>
+	<data name="Text_label_item_name_13" xml:space="preserve">
+		<value>Бомж алкоголик</value>
+	</data>
+	<data name="Text_label_item_name_14" xml:space="preserve">
+		<value>Бомж халтурщик</value>
+	</data>
+	<data name="Text_label_item_name_15" xml:space="preserve">
+		<value>Бродячий бомж</value>
+	</data>
+	<data name="Text_label_item_name_16" xml:space="preserve">
+		<value>Бомж профессионал</value>
+	</data>
+	<data name="Text_label_item_name_17" xml:space="preserve">
+		<value>Бомж подзаборник</value>
+	</data>
+	<data name="Text_label_item_name_18" xml:space="preserve">
+		<value>Бомж гопник</value>
+	</data>
+	<data name="Text_label_item_name_19" xml:space="preserve">
+		<value>Бомж скиталец</value>
+	</data>
+	<data name="Text_label_item_name_2" xml:space="preserve">
+		<value>Бомж неряха</value>
+	</data>
+	<data name="Text_label_item_name_20" xml:space="preserve">
+		<value>Бомж-странник</value>
+	</data>
+	<data name="Text_label_item_name_21" xml:space="preserve">
+		<value>Бомж-авантюрист</value>
+	</data>
+	<data name="Text_label_item_name_22" xml:space="preserve">
+		<value>Бомж дворянин</value>
+	</data>
+	<data name="Text_label_item_name_23" xml:space="preserve">
+		<value>Бомж боярин</value>
+	</data>
+	<data name="Text_label_item_name_24" xml:space="preserve">
+		<value>Барон бомжей</value>
+	</data>
+	<data name="Text_label_item_name_25" xml:space="preserve">
+		<value>Граф бомжей</value>
+	</data>
+	<data name="Text_label_item_name_26" xml:space="preserve">
+		<value>Бомж-маркиз</value>
+	</data>
+	<data name="Text_label_item_name_27" xml:space="preserve">
+		<value>Бомж-боярин</value>
+	</data>
+	<data name="Text_label_item_name_28" xml:space="preserve">
+		<value>Герцог бомжей</value>
+	</data>
+	<data name="Text_label_item_name_29" xml:space="preserve">
+		<value>Князь бомжей</value>
+	</data>
+	<data name="Text_label_item_name_3" xml:space="preserve">
+		<value>Бомжатина</value>
+	</data>
+	<data name="Text_label_item_name_30" xml:space="preserve">
+		<value>Царь бомжей</value>
+	</data>
+	<data name="Text_label_item_name_31" xml:space="preserve">
+		<value>James Bond</value>
+	</data>
+	<data name="Text_label_item_name_32" xml:space="preserve">
+		<value>Kazuki</value>
+	</data>
+	<data name="Text_label_item_name_4" xml:space="preserve">
+		<value>Бомж обыкновенный</value>
+	</data>
+	<data name="Text_label_item_name_5" xml:space="preserve">
+		<value>Бродяга</value>
+	</data>
+	<data name="Text_label_item_name_6" xml:space="preserve">
+		<value>Бомжара</value>
+	</data>
+	<data name="Text_label_item_name_7" xml:space="preserve">
+		<value>Опытный бомж</value>
+	</data>
+	<data name="Text_label_item_name_8" xml:space="preserve">
+		<value>Бомж бездельник</value>
+	</data>
+	<data name="Text_label_item_name_9" xml:space="preserve">
+		<value>Бомж-босяк</value>
+	</data>
+	<data name="Text_label_language" xml:space="preserve">
+		<value>Язык</value>
+	</data>
+	<data name="Text_label_later" xml:space="preserve">
+		<value>Позже</value>
+	</data>
+	<data name="Text_label_let_spin" xml:space="preserve">
+		<value>Крутить!</value>
+	</data>
+	<data name="Text_label_level_up" xml:space="preserve">
+		<value>ПОВЫШЕНИЕ!</value>
+	</data>
+	<data name="Text_label_level_up_upgrade" xml:space="preserve">
+		<value>ПОВЫШЕНИЕ!</value>
+	</data>
+	<data name="Text_label_max" xml:space="preserve">
+		<value>Максимум</value>
+	</data>
+	<data name="Text_label_maxed" xml:space="preserve">
+		<value>На максимум</value>
+	</data>
+	<data name="Text_label_min" xml:space="preserve">
+		<value>Mинимум</value>
+	</data>
+	<data name="Text_label_music" xml:space="preserve">
+		<value>Музыка</value>
+	</data>
+	<data name="Text_label_next_in" xml:space="preserve">
+		<value>Далее:</value>
+	</data>
+	<data name="Text_label_normal_quest" xml:space="preserve">
+		<value>Миссии</value>
+	</data>
+	<data name="Text_label_notification" xml:space="preserve">
+		<value>Уведомления</value>
+	</data>
+	<data name="Text_label_offline_earning" xml:space="preserve">
+		<value>Пока вас не было</value>
+	</data>
+	<data name="Text_label_other" xml:space="preserve">
+		<value>Другой</value>
+	</data>
+	<data name="Text_label_owned" xml:space="preserve">
+		<value>Купленный</value>
+	</data>
+	<data name="Text_label_pile_of_coins" xml:space="preserve">
+		<value>Куча монет</value>
+	</data>
+	<data name="Text_label_profit_speed" xml:space="preserve">
+		<value>Ускорение прибыли</value>
+	</data>
+	<data name="Text_label_rate_me" xml:space="preserve">
+		<value>Оценить игру</value>
+	</data>
+	<data name="Text_label_rate_now" xml:space="preserve">
+		<value>Оценить сейчас</value>
+	</data>
+	<data name="Text_label_restore_purchase" xml:space="preserve">
+		<value>Восстановить покупки</value>
+	</data>
+	<data name="Text_label_sale_off" xml:space="preserve">
+		<value>С возвращением! Мяу!</value>
+	</data>
+	<data name="Text_label_settings" xml:space="preserve">
+		<value>Настройки</value>
+	</data>
+	<data name="Text_label_share" xml:space="preserve">
+		<value>Поделиться</value>
+	</data>
+	<data name="Text_label_shop" xml:space="preserve">
+		<value>Магазин</value>
+	</data>
+	<data name="Text_label_sound" xml:space="preserve">
+		<value>Звук</value>
+	</data>
+	<data name="Text_label_speed" xml:space="preserve">
+		<value>Скорость</value>
+	</data>
+	<data name="Text_label_speed_up" xml:space="preserve">
+		<value>Ускорить</value>
+	</data>
+	<data name="Text_label_spin_and_win" xml:space="preserve">
+		<value>Колесо фортуны</value>
+	</data>
+	<data name="Text_label_statistics" xml:space="preserve">
+		<value>Статистика</value>
+	</data>
+	<data name="Text_label_tap_to_close" xml:space="preserve">
+		<value>Нажмите, чтобы закрыть</value>
+	</data>
+	<data name="Text_label_unlocked" xml:space="preserve">
+		<value>Разблокирован</value>
+	</data>
+	<data name="Text_label_update_now" xml:space="preserve">
+		<value>Обновить игру</value>
+	</data>
+	<data name="Text_label_upgrade" xml:space="preserve">
+		<value>Улучшения</value>
+	</data>
+	<data name="Text_label_watch_now" xml:space="preserve">
+		<value>СМОТРИТЕ СЕЙЧАС</value>
+	</data>
+	<data name="Text_label_watch_to_spin" xml:space="preserve">
+		<value>Смотри-крути</value>
+	</data>
+	<data name="Text_label_wheel_lucky" xml:space="preserve">
+		<value>Колесо фортуны</value>
+	</data>
+	<data name="Text_label_yeah" xml:space="preserve">
+		<value>УРА!</value>
+	</data>
+	<data name="Text_label_your_income" xml:space="preserve">
+		<value>Ваш доход</value>
+	</data>
+	<data name="Text_lb_access_panel_loadinglb" xml:space="preserve">
+		<value>Для доступа к таблице лидеров необходимо интернет соединение</value>
+	</data>
+	<data name="Text_lb_panel_header" xml:space="preserve">
+		<value>Таблица лидеров</value>
+	</data>
+	<data name="Text_lb_panel_loadinglb" xml:space="preserve">
+		<value>Загрузка...</value>
+	</data>
+	<data name="Text_lb_panel_show_all_players" xml:space="preserve">
+		<value>Показать топ 100</value>
+	</data>
+	<data name="Text_lb_panel_show_around_players" xml:space="preserve">
+		<value>Показать мою позицию</value>
+	</data>
+	<data name="Text_out_of_mission" xml:space="preserve">
+		<value>Молодец! Задание завершено. Следующие квесты будут доступны в ближайшее время.</value>
+	</data>
+	<data name="Text_reward_description_box1" xml:space="preserve">
+		<value>Коробка со случайным персонажем</value>
+	</data>
+	<data name="Text_reward_description_box2" xml:space="preserve">
+		<value>2 коробки со случайными персонажами</value>
+	</data>
+	<data name="Text_reward_description_diamonds10" xml:space="preserve">
+		<value>10 Алмазов</value>
+	</data>
+	<data name="Text_reward_description_diamonds5" xml:space="preserve">
+		<value>5 Алмазов</value>
+	</data>
+	<data name="Text_reward_description_speedup150" xml:space="preserve">
+		<value>Увеличение скорости персонажей на 150 секунд</value>
+	</data>
+	<data name="Text_reward_description_speedup200" xml:space="preserve">
+		<value>Увеличение скорости персонажей на 200 секунд</value>
+	</data>
+	<data name="Text_reward_description_x5prof20s" xml:space="preserve">
+		<value>Дает 20 секунд к х5 прибыли</value>
+	</data>
+	<data name="Text_reward_description_x5prof30s" xml:space="preserve">
+		<value>Дает 30 секунд к х5 прибыли</value>
+	</data>
+	<data name="Text_title_notification_1" xml:space="preserve">
+		<value>Добро пожаловать в новый день!</value>
+	</data>
+	<data name="Text_title_notification_2" xml:space="preserve">
+		<value>Хорошего дня!</value>
+	</data>
+	<data name="Text_title_notification_3" xml:space="preserve">
+		<value>Супппер день!!!</value>
+	</data>
+</root>

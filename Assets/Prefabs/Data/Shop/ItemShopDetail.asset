@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7fd2cbde9984466922f35f0066b1f4, type: 3}
+  m_Name: ItemShopDetail
+  m_EditorClassIdentifier: 
+  _ItemShopProperties:
+  - Level: 1
+    Name: Car 1
+    Speed: 0.01
+    Earning: 0.01
+  - Level: 2
+    Name: Car 2
+    Speed: 0.012
+    Earning: 0.039
+  - Level: 3
+    Name: Car 3
+    Speed: 0.02
+    Earning: 0.072
+  - Level: 4
+    Name: Car 4
+    Speed: 0.055
+    Earning: 0.078
+  - Level: 5
+    Name: Car 5
+    Speed: 0.087
+    Earning: 0.087
+  - Level: 6
+    Name: Car 6
+    Speed: 0.093
+    Earning: 0.12
+  - Level: 7
+    Name: Car 7
+    Speed: 0.102
+    Earning: 0.153
+  - Level: 8
+    Name: Car 8
+    Speed: 0.136
+    Earning: 0.159
+  - Level: 9
+    Name: Car 9
+    Speed: 0.168
+    Earning: 0.168
+  - Level: 10
+    Name: Car 10
+    Speed: 0.174
+    Earning: 0.201
+  - Level: 11
+    Name: Car 11
+    Speed: 0.183
+    Earning: 0.234
+  - Level: 12
+    Name: Car 12
+    Speed: 0.218
+    Earning: 0.24
+  - Level: 13
+    Name: Car 13
+    Speed: 0.249
+    Earning: 0.249
+  - Level: 14
+    Name: Car 14
+    Speed: 0.264
+    Earning: 0.315
+  - Level: 15
+    Name: Car 15
+    Speed: 0.264
+    Earning: 0.315
+  - Level: 16
+    Name: Car 16
+    Speed: 0.299
+    Earning: 0.21
+  - Level: 17
+    Name: Car 17
+    Speed: 0.331
+    Earning: 0.33
+  - Level: 18
+    Name: Car 18
+    Speed: 0.336
+    Earning: 0.363
+  - Level: 19
+    Name: Car 19
+    Speed: 0.345
+    Earning: 0.396
+  - Level: 20
+    Name: Car 20
+    Speed: 0.38
+    Earning: 0.402
+  - Level: 21
+    Name: Car 21
+    Speed: 0.412
+    Earning: 0.411
+  - Level: 22
+    Name: Car 22
+    Speed: 0.418
+    Earning: 0.444
+  - Level: 23
+    Name: Car 23
+    Speed: 0.426
+    Earning: 0.477
+  - Level: 24
+    Name: Car 24
+    Speed: 0.461
+    Earning: 0.483
+  - Level: 25
+    Name: Car 25
+    Speed: 0.493
+    Earning: 0.492
+  - Level: 26
+    Name: Car 26
+    Speed: 0.499
+    Earning: 0.525
+  - Level: 27
+    Name: Car 27
+    Speed: 0.508
+    Earning: 0.558
+  - Level: 28
+    Name: Car 28
+    Speed: 0.542
+    Earning: 0.564
+  - Level: 29
+    Name: Car 29
+    Speed: 0.574
+    Earning: 0.573
+  - Level: 30
+    Name: Car 30
+    Speed: 0.58
+    Earning: 0.594
+  - Level: 31
+    Name: Car 31
+    Speed: 0.58
+    Earning: 0.594
+  - Level: 32
+    Name: Car 32
+    Speed: 0.58
+    Earning: 0.594

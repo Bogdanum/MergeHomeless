@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f0874864289854ea4004026474cff3, type: 3}
+  m_Name: GridNodeData
+  m_EditorClassIdentifier: 
+  grid_node_properties:
+  - CurrencyId: 2
+    Level: 5
+    Price: 1000
+    PriceUnit: 0
+  - CurrencyId: 0
+    Level: 6
+    Price: 1000
+    PriceUnit: 0
+  - CurrencyId: 0
+    Level: 7
+    Price: 1000
+    PriceUnit: 0
+  - CurrencyId: 0
+    Level: 8
+    Price: 1000
+    PriceUnit: 0
+  - CurrencyId: 0
+    Level: 9
+    Price: 1000
+    PriceUnit: 0
+  - CurrencyId: 0
+    Level: 10
+    Price: 1000
+    PriceUnit: 0
+  - CurrencyId: 0
+    Level: 11
+    Price: 1000
+    PriceUnit: 0
+  - CurrencyId: 0
+    Level: 12
+    Price: 1000
+    PriceUnit: 0

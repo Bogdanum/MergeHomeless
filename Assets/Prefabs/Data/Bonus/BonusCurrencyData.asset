@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b871d6f3b3a4225b583e6890e855e7, type: 3}
+  m_Name: BonusCurrencyData
+  m_EditorClassIdentifier: 
+  _BonusProperties:
+  - BonusId: 3
+    quantity: 3
+    Icon: {fileID: 21300412, guid: 56f8f035978f14cd989b79c39d04ec0a, type: 3}
+    Percents: 10
+  - BonusId: 5
+    quantity: 30
+    Icon: {fileID: 21300410, guid: 56f8f035978f14cd989b79c39d04ec0a, type: 3}
+    Percents: 30
+  - BonusId: 4
+    quantity: 4
+    Icon: {fileID: 21300410, guid: 56f8f035978f14cd989b79c39d04ec0a, type: 3}
+    Percents: 60

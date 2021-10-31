@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1cd1a2a646c4f5428f056c471854852, type: 3}
+  m_Name: Unit
+  m_EditorClassIdentifier: 
+  _UnitProperties:
+  - Id: 0
+    Extension: K
+  - Id: 1
+    Extension: M
+  - Id: 2
+    Extension: B
+  - Id: 3
+    Extension: T
+  - Id: 4
+    Extension: aa
+  - Id: 5
+    Extension: ab
+  - Id: 6
+    Extension: ac
+  - Id: 7
+    Extension: ad
+  - Id: 8
+    Extension: ae
+  - Id: 9
+    Extension: af
+  - Id: 10
+    Extension: ag
+  - Id: 11
+    Extension: ah
+  - Id: 12
+    Extension: ai
+  - Id: 13
+    Extension: aj
+  - Id: 14
+    Extension: ak
+  - Id: 15
+    Extension: al
+  - Id: 16
+    Extension: am
+  - Id: 17
+    Extension: an
+  - Id: 18
+    Extension: ao
+  - Id: 19
+    Extension: ap
+  - Id: 20
+    Extension: aq
+  - Id: 21
+    Extension: ar
+  - Id: 22
+    Extension: as
+  - Id: 23
+    Extension: at
+  - Id: 24
+    Extension: au
+  - Id: 25
+    Extension: av
+  - Id: 26
+    Extension: aw
+  - Id: 27
+    Extension: ax
+  - Id: 28
+    Extension: ay
+  - Id: 29
+    Extension: az
+  - Id: 30
+    Extension: ba
+  - Id: 31
+    Extension: bb
+  - Id: 32
+    Extension: bc
+  - Id: 33
+    Extension: bd
+  - Id: 34
+    Extension: be
+  - Id: 35
+    Extension: bf
+  - Id: 36
+    Extension: bg
+  - Id: 37
+    Extension: bh
+  - Id: 38
+    Extension: bi
+  - Id: 39
+    Extension: bj
+  - Id: 40
+    Extension: bk
+  - Id: 41
+    Extension: bl
+  - Id: 42
+    Extension: bm
+  - Id: 43
+    Extension: bn
+  - Id: 44
+    Extension: bo
+  - Id: 45
+    Extension: bp
+  - Id: 46
+    Extension: bq
+  - Id: 47
+    Extension: br
+  - Id: 48
+    Extension: bs
+  - Id: 49
+    Extension: bt
+  - Id: 50
+    Extension: bu
+  - Id: 51
+    Extension: bv
+  - Id: 52
+    Extension: bw
+  - Id: 53
+    Extension: bx
+  - Id: 54
+    Extension: by
+  - Id: 55
+    Extension: bz
+  - Id: 56
+    Extension: ca
+  - Id: 57
+    Extension: cb
+  - Id: 58
+    Extension: cc
+  - Id: 59
+    Extension: cd
+  - Id: 60
+    Extension: ce
+  - Id: 61
+    Extension: cf
+  - Id: 62
+    Extension: cg
+  - Id: 63
+    Extension: ch
+  - Id: 64
+    Extension: ci
+  - Id: 65
+    Extension: cj
+  - Id: 66
+    Extension: ck
+  - Id: 67
+    Extension: cl
+  - Id: 68
+    Extension: cm
+  - Id: 69
+    Extension: cn
+  - Id: 70
+    Extension: co
+  - Id: 71
+    Extension: cp
+  - Id: 72
+    Extension: cq
+  - Id: 73
+    Extension: cr
+  - Id: 74
+    Extension: cs
+  - Id: 75
+    Extension: ct
+  - Id: 76
+    Extension: cu
+  - Id: 77
+    Extension: cv
+  - Id: 78
+    Extension: cw
+  - Id: 79
+    Extension: cx
+  - Id: 80
+    Extension: cy
+  - Id: 81
+    Extension: cz
